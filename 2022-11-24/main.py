@@ -28,3 +28,8 @@ class UserLoginSchema(Schema):
 @app.post('/login')
 async def login(user: UserLoginSchema):
     return {'msg': f'Logged-in {user.username}'}
+
+
+
+# uruchamianie:
+# uvicorn main:app
