@@ -1,0 +1,45 @@
+"Imię i nazwisko", "Misja", "Funkcja", "Początek Misji", "Koniec Misji", "Lądowanie
+
+na Księżycu", "Długość
+
+pobytu", "Długość
+
+LEVA", "Miejsce
+
+Lądowania"
+"Virgil I. Gus Grissom", "Apollo 1", "CMDR", "1967-01-27", "śmierć w pożarze", "n/d", "n/d", "n/d", "n/d"
+"Edward H. White", "Apollo 1", "Senior Pilot", "1967-01-27", "śmierć w pożarze", "n/d", "n/d", "n/d", "n/d"
+"Roger B. Chaffee", "Apollo 1", "Pilot", "1967-01-27", "śmierć w pożarze", "n/d", "n/d", "n/d", "n/d"
+"Walter M. Schirra", "Apollo 7", "CMDR", "1968-10-11", "1968-10-22", "n/d", "n/d", "n/d", "n/d"
+"Donn F. Eisele", "Apollo 7", "CMP", "1968-10-11", "1968-10-22", "n/d", "n/d", "n/d", "n/d"
+"Walter R. Cunningham", "Apollo 7", "LMP", "1968-10-11", "1968-10-22", "n/d", "n/d", "n/d", "n/d"
+"Frank Borman", "Apollo 8", "CMDR", "1968-12-21", "1968-12-27", "n/d", "n/d", "n/d", "n/d"
+"Jim Lovell", "Apollo 8", "CMP", "1968-12-21", "1968-12-27", "n/d", "n/d", "n/d", "n/d"
+"Bill Anders", "Apollo 8", "LMP", "1968-12-21", "1968-12-27", "n/d", "n/d", "n/d", "n/d"
+"James A. McDivitt", "Apollo 9", "CMDR", "1969-03-03", "1969-03-13", "n/d", "n/d", "n/d", "n/d"
+"David R. Scott", "Apollo 9", "CMP", "1969-03-03", "1969-03-13", "n/d", "n/d", "n/d", "n/d"
+"Russell L. Schweickart", "Apollo 9", "LMP", "1969-03-03", "1969-03-13", "n/d", "n/d", "n/d", "n/d"
+"Tom Stafford", "Apollo 10", "CMDR", "1969-05-18", "1969-05-26", "n/d", "n/d", "n/d", "n/d"
+"John Young", "Apollo 10", "CMP", "1969-05-18", "1969-05-26", "n/d", "n/d", "n/d", "n/d"
+"Eugene Cernan", "Apollo 10", "LMP", "1969-05-18", "1969-05-26", "n/d", "n/d", "n/d", "n/d"
+"Michael Collins", "Apollo 11", "CMP", "1969-07-16", "1969-07-24", "n/d", "n/d", "n/d", "n/d"
+"Neil Armstrong", "Apollo 11", "CMDR", "1969-07-16", "1969-07-24", "1969-07-21", "21h 31m", "2h 31m", "Sea of Tranquility"
+"Buzz Aldrin", "Apollo 11", "LMP", "1969-07-16", "1969-07-24", "1969-07-21", "21h 31m", "2h 31m", "Sea of Tranquility"
+"Dick Gordon", "Apollo 12", "CMP", "1969-11-14", "1969-11-24", "n/d", "n/d", "n/d", "n/d"
+"Pete Conrad", "Apollo 12", "CMDR", "1969-11-14", "1969-11-24", "1969-11-19", "1d 7h 31m", "7h 45m", "Ocean of Storms"
+"Alan Bean", "Apollo 12", "LMP", "1969-11-14", "1969-11-24", "1969-11-19", "1d 7h 31m", "7h 45m", "Ocean of Storms"
+"Jim Lovell", "Apollo 13", "CMDR", "1970-04-11", "1970-04-17", "n/d", "n/d", "n/d", "n/d"
+"Jack Swigert", "Apollo 13", "CMP", "1970-04-11", "1970-04-17", "n/d", "n/d", "n/d", "n/d"
+"Fred Haise", "Apollo 13", "LMP", "1970-04-11", "1970-04-17", "n/d", "n/d", "n/d", "n/d"
+"Stu Roosa", "Apollo 14", "CMP", "1971-01-31", "1971-02-09", "n/d", "n/d", "n/d", "n/d"
+"Alan Shepard", "Apollo 14", "CMDR", "1971-01-31", "1971-02-09", "1971-02-05", "1d 9h 30m", "9h 21m", "Fra Mauro"
+"Edgar Mitchell", "Apollo 14", "LMP", "1971-01-31", "1971-02-09", "1971-02-05", "1d 9h 30m", "9h 21m", "Fra Mauro"
+"Al Worden", "Apollo 15", "CMP", "1971-07-26", "1971-08-07", "n/d", "n/d", "n/d", "n/d"
+"David Scott", "Apollo 15", "CMDR", "1971-07-26", "1971-08-07", "1971-07-31", "2d 18h 55m", "18h 33m", "Hadley Rille"
+"James Irwin", "Apollo 15", "LMP", "1971-07-26", "1971-08-07", "1971-07-31", "2d 18h 55m", "18h 33m", "Hadley Rille"
+"Ken Mattingly", "Apollo 16", "CMP", "1972-04-16", "1972-04-27", "n/d", "n/d", "n/d", "n/d"
+"John Young", "Apollo 16", "CMDR", "1972-04-16", "1972-04-27", "1972-04-21", "2d 23h 02m", "20h 14m", "Descartes Highlands"
+"Charles Duke", "Apollo 16", "LMP", "1972-04-16", "1972-04-27", "1972-04-21", "2d 23h 02m", "20h 14m", "Descartes Highlands"
+"Ron Evans", "Apollo 17", "CMP", "1972-12-07", "1972-12-19", "n/d", "n/d", "n/d", "n/d"
+"Eugene Cernan", "Apollo 17", "CMDR", "1972-12-07", "1972-12-19", "1972-12-11", "3d 2h 59m", "22h 04m", "Taurus–Littrow"
+"Harrison Schmitt", "Apollo 17", "LMP", "1972-12-07", "1972-12-19", "1972-12-11", "3d 2h 59m", "22h 04m", "Taurus–Littrow"

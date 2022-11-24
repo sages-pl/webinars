@@ -1,0 +1,2372 @@
+[
+  {
+    "sha": "333d10cbb53dd5f28d76f659a49bf0735f8509d8",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6MzMzZDEwY2JiNTNkZDVmMjhkNzZmNjU5YTQ5YmYwNzM1Zjg1MDlkOA==",
+    "commit": {
+      "author": {
+        "name": "Inada Naoki",
+        "email": "songofacandy@gmail.com",
+        "date": "2021-04-14T05:12:58Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-14T05:12:58Z"
+      },
+      "message": "bpo-43712 : fileinput: Add encoding parameter (GH-25272)",
+      "tree": {
+        "sha": "ddc1e42d033ce82d4f8b29fd281eb6754ea85d2b",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/ddc1e42d033ce82d4f8b29fd281eb6754ea85d2b"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/333d10cbb53dd5f28d76f659a49bf0735f8509d8",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdnnaCRBK7hj4Ov3rIwAAdHIIABg8ctfm4OSOkUvQfKvs4eWm\nGug4hUYmJEKFw9ZkLg58R3jZh74Rq50169RDjiG5x4YmkYfsXR9OWUhtAPXAIfhs\nRob7dnxN+Qo1V+KyYlwfnUl5EiGRcc3WCHVunZBZFW99EroickOZOM6tn373EHjw\nJOLezqN6TK7QpmdRoWUNOjRzaYo8534Bu1iLn0MinkcNCxHz2LUcRQzf4VZdiSL5\nj16xnSn2diJ7p9xAmyauKnrx6Duq8mUo/o4WadAEX3qxKM6Az/8K2mOvkeLJlRpm\naEPuonw98EzkSysQNKd2bHnI+4QmwEvpbcnaVOeJkBMvjhetxOO8bkwrgpOYyII=\n=D7t4\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree ddc1e42d033ce82d4f8b29fd281eb6754ea85d2b\nparent 133705b85cc25d1e6684d32f8943ca288fadfda0\nauthor Inada Naoki <songofacandy@gmail.com> 1618377178 +0900\ncommitter GitHub <noreply@github.com> 1618377178 +0900\n\nbpo-43712 : fileinput: Add encoding parameter (GH-25272)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/333d10cbb53dd5f28d76f659a49bf0735f8509d8",
+    "html_url": "https://github.com/python/cpython/commit/333d10cbb53dd5f28d76f659a49bf0735f8509d8",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/333d10cbb53dd5f28d76f659a49bf0735f8509d8/comments",
+    "author": {
+      "login": "methane",
+      "id": 199592,
+      "node_id": "MDQ6VXNlcjE5OTU5Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/199592?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/methane",
+      "html_url": "https://github.com/methane",
+      "followers_url": "https://api.github.com/users/methane/followers",
+      "following_url": "https://api.github.com/users/methane/following{/other_user}",
+      "gists_url": "https://api.github.com/users/methane/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/methane/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/methane/subscriptions",
+      "organizations_url": "https://api.github.com/users/methane/orgs",
+      "repos_url": "https://api.github.com/users/methane/repos",
+      "events_url": "https://api.github.com/users/methane/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/methane/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "133705b85cc25d1e6684d32f8943ca288fadfda0",
+        "url": "https://api.github.com/repos/python/cpython/commits/133705b85cc25d1e6684d32f8943ca288fadfda0",
+        "html_url": "https://github.com/python/cpython/commit/133705b85cc25d1e6684d32f8943ca288fadfda0"
+      }
+    ]
+  },
+  {
+    "sha": "133705b85cc25d1e6684d32f8943ca288fadfda0",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6MTMzNzA1Yjg1Y2MyNWQxZTY2ODRkMzJmODk0M2NhMjg4ZmFkZmRhMA==",
+    "commit": {
+      "author": {
+        "name": "Bob Kline",
+        "email": "bkline@users.noreply.github.com",
+        "date": "2021-04-14T05:09:32Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-14T05:09:32Z"
+      },
+      "message": "bpo-43777: Drop description of \"pip search\" command from tutorial (GH-25287)",
+      "tree": {
+        "sha": "1f4f8fe2f2e8382db965f11b4f12e72f8515a23a",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/1f4f8fe2f2e8382db965f11b4f12e72f8515a23a"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/133705b85cc25d1e6684d32f8943ca288fadfda0",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdnkMCRBK7hj4Ov3rIwAAdHIIAGOW8sfOVY8z6ArgxvrnGFL2\neSSAgqB9KiJRFClLPi1cwxcsuvtdXv0JDWkslZ0Q5fRJNBSj9b7NXRVo2g1YOuGz\nMudFF/nELxen3rWJEvcV+PKLpyTM8lvYzZtkCZeWwPCr/MtIhDCa0hsWcFnrlZKS\nsEe54lGLKMOze3AEe3jW0QESZYDPdGmdoHNeyvMJgeXjSLVvKzrYuT7YKps8Ech8\noQPnNJ7lp10UAAVyI7/hdzZ07Bxqyal/uOrUfKwI3N0Eaj/GrAKP/HduyjLO3ORQ\n03rf+QJHmmKuand23YOgg/WYH7szJYUT7yd0L45QA3MHtYm2cFco6gueC+TktCU=\n=Jxn1\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 1f4f8fe2f2e8382db965f11b4f12e72f8515a23a\nparent 37494b441aced0362d7edd2956ab3ea7801e60c8\nauthor Bob Kline <bkline@users.noreply.github.com> 1618376972 -0400\ncommitter GitHub <noreply@github.com> 1618376972 +0900\n\nbpo-43777: Drop description of \"pip search\" command from tutorial (GH-25287)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/133705b85cc25d1e6684d32f8943ca288fadfda0",
+    "html_url": "https://github.com/python/cpython/commit/133705b85cc25d1e6684d32f8943ca288fadfda0",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/133705b85cc25d1e6684d32f8943ca288fadfda0/comments",
+    "author": {
+      "login": "bkline",
+      "id": 1634628,
+      "node_id": "MDQ6VXNlcjE2MzQ2Mjg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1634628?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bkline",
+      "html_url": "https://github.com/bkline",
+      "followers_url": "https://api.github.com/users/bkline/followers",
+      "following_url": "https://api.github.com/users/bkline/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bkline/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bkline/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bkline/subscriptions",
+      "organizations_url": "https://api.github.com/users/bkline/orgs",
+      "repos_url": "https://api.github.com/users/bkline/repos",
+      "events_url": "https://api.github.com/users/bkline/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bkline/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "37494b441aced0362d7edd2956ab3ea7801e60c8",
+        "url": "https://api.github.com/repos/python/cpython/commits/37494b441aced0362d7edd2956ab3ea7801e60c8",
+        "html_url": "https://github.com/python/cpython/commit/37494b441aced0362d7edd2956ab3ea7801e60c8"
+      }
+    ]
+  },
+  {
+    "sha": "37494b441aced0362d7edd2956ab3ea7801e60c8",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6Mzc0OTRiNDQxYWNlZDAzNjJkN2VkZDI5NTZhYjNlYTc4MDFlNjBjOA==",
+    "commit": {
+      "author": {
+        "name": "Pablo Galindo",
+        "email": "Pablogsal@gmail.com",
+        "date": "2021-04-14T01:36:07Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-14T01:36:07Z"
+      },
+      "message": "bpo-38530: Offer suggestions on AttributeError (#16856)\n\nWhen printing AttributeError, PyErr_Display will offer suggestions of similar \r\nattribute names in the object that the exception was raised from:\r\n\r\n>>> collections.namedtoplo\r\nTraceback (most recent call last):\r\n  File \"<stdin>\", line 1, in <module>\r\nAttributeError: module 'collections' has no attribute 'namedtoplo'. Did you mean: namedtuple?",
+      "tree": {
+        "sha": "45d9355cde5f7c71924e8df0f16ea2e0ad63eea8",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/45d9355cde5f7c71924e8df0f16ea2e0ad63eea8"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/37494b441aced0362d7edd2956ab3ea7801e60c8",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdkcHCRBK7hj4Ov3rIwAAdHIIAD7KRqQ2ygDD5Llqh3WZi35c\noaHdZi0AEvJXq3uXqRtE5+EOVTeP7bd/ghTPeI6NOSgpR7Ie9FdiOwETfKnefIbO\nHt9BOPunbag8RqvA0c+hUT2Kj49QLvuCJSjdIY526/OfOnnJ7z5PXHIp70fVXXEF\n4az6k+nIxGAb5SgfE3N7omCm03TGileEvSa5pDeUItER+/n9UebHVxypDvaiqENE\ncLr3Yb1P5+a9NsmHmoDv8he3cTH0VcgnEq4pF6r9JcYo5YeIq/5dpbvO4FNUdK2n\nBQwUOW4hIuC9m/jnNlMeAEFW7+7MiVdZZAygHIy4f3Qnne7RpH/Nzu+RPL0z2L4=\n=dj94\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 45d9355cde5f7c71924e8df0f16ea2e0ad63eea8\nparent 3bc694d5f3d4eb2e5d2f0b83e498b19662845d4e\nauthor Pablo Galindo <Pablogsal@gmail.com> 1618364167 +0100\ncommitter GitHub <noreply@github.com> 1618364167 +0100\n\nbpo-38530: Offer suggestions on AttributeError (#16856)\n\nWhen printing AttributeError, PyErr_Display will offer suggestions of similar \r\nattribute names in the object that the exception was raised from:\r\n\r\n>>> collections.namedtoplo\r\nTraceback (most recent call last):\r\n  File \"<stdin>\", line 1, in <module>\r\nAttributeError: module 'collections' has no attribute 'namedtoplo'. Did you mean: namedtuple?"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/37494b441aced0362d7edd2956ab3ea7801e60c8",
+    "html_url": "https://github.com/python/cpython/commit/37494b441aced0362d7edd2956ab3ea7801e60c8",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/37494b441aced0362d7edd2956ab3ea7801e60c8/comments",
+    "author": {
+      "login": "pablogsal",
+      "id": 11718525,
+      "node_id": "MDQ6VXNlcjExNzE4NTI1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11718525?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pablogsal",
+      "html_url": "https://github.com/pablogsal",
+      "followers_url": "https://api.github.com/users/pablogsal/followers",
+      "following_url": "https://api.github.com/users/pablogsal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pablogsal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pablogsal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pablogsal/subscriptions",
+      "organizations_url": "https://api.github.com/users/pablogsal/orgs",
+      "repos_url": "https://api.github.com/users/pablogsal/repos",
+      "events_url": "https://api.github.com/users/pablogsal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pablogsal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3bc694d5f3d4eb2e5d2f0b83e498b19662845d4e",
+        "url": "https://api.github.com/repos/python/cpython/commits/3bc694d5f3d4eb2e5d2f0b83e498b19662845d4e",
+        "html_url": "https://github.com/python/cpython/commit/3bc694d5f3d4eb2e5d2f0b83e498b19662845d4e"
+      }
+    ]
+  },
+  {
+    "sha": "3bc694d5f3d4eb2e5d2f0b83e498b19662845d4e",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6M2JjNjk0ZDVmM2Q0ZWIyZTVkMmYwYjgzZTQ5OGIxOTY2Mjg0NWQ0ZQ==",
+    "commit": {
+      "author": {
+        "name": "Victor Stinner",
+        "email": "vstinner@python.org",
+        "date": "2021-04-14T01:24:33Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-14T01:24:33Z"
+      },
+      "message": "bpo-43680: Deprecate io.OpenWrapper (GH-25357)\n\nDeprecate io.OpenWrapper and _pyio.OpenWrapper: use io.open and\r\n_pyio.open instead. Until Python 3.9, _pyio.open was not a static\r\nmethod and builtins.open was set to OpenWrapper to not become a bound\r\nmethod when set to a class variable. _io.open is a built-in function\r\nwhereas _pyio.open is a Python function. In Python 3.10, _pyio.open()\r\nis now a static method, and builtins.open() is now io.open().",
+      "tree": {
+        "sha": "43e6d321001603933495058eedce97d43641f02f",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/43e6d321001603933495058eedce97d43641f02f"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/3bc694d5f3d4eb2e5d2f0b83e498b19662845d4e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdkRRCRBK7hj4Ov3rIwAAdHIIAHeePAPlko+Te5Jis9gNC0qh\nPGxr6LTbPsobVeGN31MfYuzyx2yAjoXkWq3SMYCILJRPSu1iqn3WfUfxUK6PhNGS\nyivCx9jKDTozjuIQS3NiaZVkF1w79JT6eLjRADQmmMKjWAIhfsRmGMjwLrN+djcS\nGqJ8dSDW8lIXmDgOz7lHtlvSV4IgvdMEGxrUKrfhBDMw8l/Dha5i8ugyzVcaWWOM\nlmQYW1E6UwQtXHWAcvVt/J5FIGi6BTqLWiTNuMFvLCHXbKekof1WpyAhRt57JE1g\ns1JyIFyrb68ZSUHx6njDkLxdLEoBlD34q8BtjZPpJMNQ9yjMPWMc3UUspvn5rv4=\n=WifG\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 43e6d321001603933495058eedce97d43641f02f\nparent 11159d2c9d6616497ef4cc62953a5c3cc8454afb\nauthor Victor Stinner <vstinner@python.org> 1618363473 +0200\ncommitter GitHub <noreply@github.com> 1618363473 +0200\n\nbpo-43680: Deprecate io.OpenWrapper (GH-25357)\n\nDeprecate io.OpenWrapper and _pyio.OpenWrapper: use io.open and\r\n_pyio.open instead. Until Python 3.9, _pyio.open was not a static\r\nmethod and builtins.open was set to OpenWrapper to not become a bound\r\nmethod when set to a class variable. _io.open is a built-in function\r\nwhereas _pyio.open is a Python function. In Python 3.10, _pyio.open()\r\nis now a static method, and builtins.open() is now io.open()."
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/3bc694d5f3d4eb2e5d2f0b83e498b19662845d4e",
+    "html_url": "https://github.com/python/cpython/commit/3bc694d5f3d4eb2e5d2f0b83e498b19662845d4e",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/3bc694d5f3d4eb2e5d2f0b83e498b19662845d4e/comments",
+    "author": {
+      "login": "vstinner",
+      "id": 194129,
+      "node_id": "MDQ6VXNlcjE5NDEyOQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/194129?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vstinner",
+      "html_url": "https://github.com/vstinner",
+      "followers_url": "https://api.github.com/users/vstinner/followers",
+      "following_url": "https://api.github.com/users/vstinner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vstinner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vstinner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vstinner/subscriptions",
+      "organizations_url": "https://api.github.com/users/vstinner/orgs",
+      "repos_url": "https://api.github.com/users/vstinner/repos",
+      "events_url": "https://api.github.com/users/vstinner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vstinner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "11159d2c9d6616497ef4cc62953a5c3cc8454afb",
+        "url": "https://api.github.com/repos/python/cpython/commits/11159d2c9d6616497ef4cc62953a5c3cc8454afb",
+        "html_url": "https://github.com/python/cpython/commit/11159d2c9d6616497ef4cc62953a5c3cc8454afb"
+      }
+    ]
+  },
+  {
+    "sha": "11159d2c9d6616497ef4cc62953a5c3cc8454afb",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6MTExNTlkMmM5ZDY2MTY0OTdlZjRjYzYyOTUzYTVjM2NjODQ1NGFmYg==",
+    "commit": {
+      "author": {
+        "name": "Lewis Gaul",
+        "email": "lewis.gaul@gmail.com",
+        "date": "2021-04-13T23:59:24Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-13T23:59:24Z"
+      },
+      "message": "bpo-43080: pprint for dataclass instances (GH-24389)\n\n* Added pprint support for dataclass instances which don't have a custom __repr__.",
+      "tree": {
+        "sha": "80c6de1f50ce31cbe76e4a6ab2398a95f8fb5c2f",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/80c6de1f50ce31cbe76e4a6ab2398a95f8fb5c2f"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/11159d2c9d6616497ef4cc62953a5c3cc8454afb",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdjBcCRBK7hj4Ov3rIwAAdHIIAI+Ot0mqPo/YM7hknv+7H5cr\n9A2pY1eC3VFykM2F84BaLYMWS4S8p85wrWYUMmpINc7gCFJ0k8RpObW3bSIgDoJ2\nfProI0H+ASaA4nVGnOFPAA/MMWs46wvuXCmLPvl1fl0+No+NOXu0eikUZY1yFZmj\nFMSZCG/EvfjBvStcWLtLJv/K4xk43r6Q8s2/mcvvSezRbfsU9w9iJtqF9l8/VZBy\n1JUgpJPZPYRKJ5h0wlXlL3PULeLO5ZugHZtX3BYzdjJ8mY0UijRdumrdObAgec6Y\nLNGeMBXvaeiF6GYJCNp5wTjx4ZX7nH+M7QxFK+zHV8eQbO4Wkp2uW5PXci7yapk=\n=2CAl\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 80c6de1f50ce31cbe76e4a6ab2398a95f8fb5c2f\nparent 695d47b51e3e197de5448a1eb2f618bef6d59ac8\nauthor Lewis Gaul <lewis.gaul@gmail.com> 1618358364 +0100\ncommitter GitHub <noreply@github.com> 1618358364 -0400\n\nbpo-43080: pprint for dataclass instances (GH-24389)\n\n* Added pprint support for dataclass instances which don't have a custom __repr__."
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/11159d2c9d6616497ef4cc62953a5c3cc8454afb",
+    "html_url": "https://github.com/python/cpython/commit/11159d2c9d6616497ef4cc62953a5c3cc8454afb",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/11159d2c9d6616497ef4cc62953a5c3cc8454afb/comments",
+    "author": {
+      "login": "LewisGaul",
+      "id": 16408073,
+      "node_id": "MDQ6VXNlcjE2NDA4MDcz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16408073?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/LewisGaul",
+      "html_url": "https://github.com/LewisGaul",
+      "followers_url": "https://api.github.com/users/LewisGaul/followers",
+      "following_url": "https://api.github.com/users/LewisGaul/following{/other_user}",
+      "gists_url": "https://api.github.com/users/LewisGaul/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/LewisGaul/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/LewisGaul/subscriptions",
+      "organizations_url": "https://api.github.com/users/LewisGaul/orgs",
+      "repos_url": "https://api.github.com/users/LewisGaul/repos",
+      "events_url": "https://api.github.com/users/LewisGaul/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/LewisGaul/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "695d47b51e3e197de5448a1eb2f618bef6d59ac8",
+        "url": "https://api.github.com/repos/python/cpython/commits/695d47b51e3e197de5448a1eb2f618bef6d59ac8",
+        "html_url": "https://github.com/python/cpython/commit/695d47b51e3e197de5448a1eb2f618bef6d59ac8"
+      }
+    ]
+  },
+  {
+    "sha": "695d47b51e3e197de5448a1eb2f618bef6d59ac8",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6Njk1ZDQ3YjUxZTNlMTk3ZGU1NDQ4YTFlYjJmNjE4YmVmNmQ1OWFjOA==",
+    "commit": {
+      "author": {
+        "name": "Inada Naoki",
+        "email": "songofacandy@gmail.com",
+        "date": "2021-04-13T23:22:49Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-13T23:22:49Z"
+      },
+      "message": "bpo-43785: Update bz2 document (GH-25351)",
+      "tree": {
+        "sha": "64ec0c41016aa5d7573352ce991cdf4994765bef",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/64ec0c41016aa5d7573352ce991cdf4994765bef"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/695d47b51e3e197de5448a1eb2f618bef6d59ac8",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdifJCRBK7hj4Ov3rIwAAdHIIAE4ZwJI+jqKyEhuwN0B2ghui\n3a8srWKOHrr77mRVyiu2B3wMfSjHS50YthJQwTPhox8a6DyliwRB84qagkOZinBm\n/1/BufloyHO+mkflTlnBRBQ2WRXiUq2U1SYdYxFeer/jtTkTIbtzTb+wXOX+G7MS\ntxj9i1VtsIX9aFaCqMpvuAuH+5zKTF2UybsDlGsqbSjwGXwLZxka4qhjopRm160y\nlkACaR4Vk38wIIxfXHZNkfYLDwZIpPQaFxAyhlQ+eeAwyb6ltK1BVaLGD8zPLijp\nsIqXV1AAmaNrqinEoQ/WnkDjtFf5xFguWVLuczo/ySUZI/HaBDaoKxtAgEEpkNc=\n=HdhA\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 64ec0c41016aa5d7573352ce991cdf4994765bef\nparent 8fa1489365e7af8b90286c97db55a2dc60a05cde\nauthor Inada Naoki <songofacandy@gmail.com> 1618356169 +0900\ncommitter GitHub <noreply@github.com> 1618356169 +0900\n\nbpo-43785: Update bz2 document (GH-25351)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/695d47b51e3e197de5448a1eb2f618bef6d59ac8",
+    "html_url": "https://github.com/python/cpython/commit/695d47b51e3e197de5448a1eb2f618bef6d59ac8",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/695d47b51e3e197de5448a1eb2f618bef6d59ac8/comments",
+    "author": {
+      "login": "methane",
+      "id": 199592,
+      "node_id": "MDQ6VXNlcjE5OTU5Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/199592?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/methane",
+      "html_url": "https://github.com/methane",
+      "followers_url": "https://api.github.com/users/methane/followers",
+      "following_url": "https://api.github.com/users/methane/following{/other_user}",
+      "gists_url": "https://api.github.com/users/methane/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/methane/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/methane/subscriptions",
+      "organizations_url": "https://api.github.com/users/methane/orgs",
+      "repos_url": "https://api.github.com/users/methane/repos",
+      "events_url": "https://api.github.com/users/methane/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/methane/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8fa1489365e7af8b90286c97db55a2dc60a05cde",
+        "url": "https://api.github.com/repos/python/cpython/commits/8fa1489365e7af8b90286c97db55a2dc60a05cde",
+        "html_url": "https://github.com/python/cpython/commit/8fa1489365e7af8b90286c97db55a2dc60a05cde"
+      }
+    ]
+  },
+  {
+    "sha": "8fa1489365e7af8b90286c97db55a2dc60a05cde",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6OGZhMTQ4OTM2NWU3YWY4YjkwMjg2Yzk3ZGI1NWEyZGM2MGEwNWNkZQ==",
+    "commit": {
+      "author": {
+        "name": "Christian Heimes",
+        "email": "christian@python.org",
+        "date": "2021-04-13T17:23:45Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-13T17:23:45Z"
+      },
+      "message": "bpo-43811: Test multiple OpenSSL versions on GHA (GH-25360)\n\n\n\nThe new checks are only executed when one or more OpenSSL-related files are modified. The checks run a handful of networking and hashing test suites. All SSL checks are optional. This PR also introduces ccache to speed up compilation. In common cases it speeds up configure and compile time from about 90 seconds to less than 30 seconds.\r\n\r\nSigned-off-by: Christian Heimes <christian@python.org>",
+      "tree": {
+        "sha": "b38ed3ba7dfc0d02141129566c51e55b088b9cfc",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/b38ed3ba7dfc0d02141129566c51e55b088b9cfc"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/8fa1489365e7af8b90286c97db55a2dc60a05cde",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgddOhCRBK7hj4Ov3rIwAAdHIIAH+xV6iII+S6vsd6jx/mE2BF\n05XhwVifNfUPdOWzAZTNf95UDpvZLgX6rhX00c+RuTVwjGtVz35NHQeEBxmtBlvP\nuq5Byd1DBYIIROo669SioYv2gFRvBRqPpxRev/Qe60PGDQ54UCR6gZS9/UVe12J6\nTmoc0pUqGXESqZiXY2E2hZbYjQ4qzVHUXpS/ybX5zAnnUUo7BTZJu5cxbSE46FJe\nxLIYAohY8zQQ3oCvrMrqdkVlwaw/5R3H4+ChdxfgmCzhP3L86G4n9KU7+Tnw33Hq\noDiKWJ3ZmamJKfKahKULwBDUJR5Oj89MdN1T+Fdn76IehDz+2X/GFef9xvinoqs=\n=Nlb3\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b38ed3ba7dfc0d02141129566c51e55b088b9cfc\nparent 30ed93bfec5dfa7ee05982e2df8fd810f3f49305\nauthor Christian Heimes <christian@python.org> 1618334625 +0200\ncommitter GitHub <noreply@github.com> 1618334625 -0700\n\nbpo-43811: Test multiple OpenSSL versions on GHA (GH-25360)\n\n\n\nThe new checks are only executed when one or more OpenSSL-related files are modified. The checks run a handful of networking and hashing test suites. All SSL checks are optional. This PR also introduces ccache to speed up compilation. In common cases it speeds up configure and compile time from about 90 seconds to less than 30 seconds.\r\n\r\nSigned-off-by: Christian Heimes <christian@python.org>"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/8fa1489365e7af8b90286c97db55a2dc60a05cde",
+    "html_url": "https://github.com/python/cpython/commit/8fa1489365e7af8b90286c97db55a2dc60a05cde",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/8fa1489365e7af8b90286c97db55a2dc60a05cde/comments",
+    "author": {
+      "login": "tiran",
+      "id": 444071,
+      "node_id": "MDQ6VXNlcjQ0NDA3MQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/444071?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tiran",
+      "html_url": "https://github.com/tiran",
+      "followers_url": "https://api.github.com/users/tiran/followers",
+      "following_url": "https://api.github.com/users/tiran/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tiran/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tiran/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tiran/subscriptions",
+      "organizations_url": "https://api.github.com/users/tiran/orgs",
+      "repos_url": "https://api.github.com/users/tiran/repos",
+      "events_url": "https://api.github.com/users/tiran/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tiran/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "30ed93bfec5dfa7ee05982e2df8fd810f3f49305",
+        "url": "https://api.github.com/repos/python/cpython/commits/30ed93bfec5dfa7ee05982e2df8fd810f3f49305",
+        "html_url": "https://github.com/python/cpython/commit/30ed93bfec5dfa7ee05982e2df8fd810f3f49305"
+      }
+    ]
+  },
+  {
+    "sha": "30ed93bfec5dfa7ee05982e2df8fd810f3f49305",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6MzBlZDkzYmZlYzVkZmE3ZWUwNTk4MmUyZGY4ZmQ4MTBmM2Y0OTMwNQ==",
+    "commit": {
+      "author": {
+        "name": "Pablo Galindo",
+        "email": "Pablogsal@gmail.com",
+        "date": "2021-04-13T16:51:21Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-13T16:51:21Z"
+      },
+      "message": "bpo-43797: Handle correctly invalid assignments inside function calls and generators (GH-25390)",
+      "tree": {
+        "sha": "2ba7d8eaba2304ec562e5bb877f7a6e0975954fa",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/2ba7d8eaba2304ec562e5bb877f7a6e0975954fa"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/30ed93bfec5dfa7ee05982e2df8fd810f3f49305",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdcwKCRBK7hj4Ov3rIwAAdHIIACxJaQ7Y8wOImelP76FOh6Sm\nLHwZqjEv2YK4Nka8mgzuWLEDGiAsP+A9J6BTTtVIvErFr6CfKKALh/MwHAzrFYC4\n5V8HEyCH0S54SyfuVq0TEv2bprXstEowrnA5Wyxx1rT/XFMgKp+z+j3CMhU1TIus\neNKPrfoiqE/1depZjk35Vo2BZ2p5O1JIBmlBty4hdADdaWFKIZzvpq1Y6+rkqb49\nXaK2/tqsJO/FyMeMiB77vdqhlhJRQHe9OBc0Yd8dFJjrVWV3kncAddcm1Cg3hZ2M\nWx0wZr+fyAFrDnGTZGk+4T4WNLcU/Xz+cGiktMcD56mdCmb9B/8c2lQPjCflqi4=\n=eDXH\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 2ba7d8eaba2304ec562e5bb877f7a6e0975954fa\nparent fd79af7ae2574aaaa829e40ed780e17ef1f9be84\nauthor Pablo Galindo <Pablogsal@gmail.com> 1618332681 +0100\ncommitter GitHub <noreply@github.com> 1618332681 +0100\n\nbpo-43797: Handle correctly invalid assignments inside function calls and generators (GH-25390)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/30ed93bfec5dfa7ee05982e2df8fd810f3f49305",
+    "html_url": "https://github.com/python/cpython/commit/30ed93bfec5dfa7ee05982e2df8fd810f3f49305",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/30ed93bfec5dfa7ee05982e2df8fd810f3f49305/comments",
+    "author": {
+      "login": "pablogsal",
+      "id": 11718525,
+      "node_id": "MDQ6VXNlcjExNzE4NTI1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11718525?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pablogsal",
+      "html_url": "https://github.com/pablogsal",
+      "followers_url": "https://api.github.com/users/pablogsal/followers",
+      "following_url": "https://api.github.com/users/pablogsal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pablogsal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pablogsal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pablogsal/subscriptions",
+      "organizations_url": "https://api.github.com/users/pablogsal/orgs",
+      "repos_url": "https://api.github.com/users/pablogsal/repos",
+      "events_url": "https://api.github.com/users/pablogsal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pablogsal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fd79af7ae2574aaaa829e40ed780e17ef1f9be84",
+        "url": "https://api.github.com/repos/python/cpython/commits/fd79af7ae2574aaaa829e40ed780e17ef1f9be84",
+        "html_url": "https://github.com/python/cpython/commit/fd79af7ae2574aaaa829e40ed780e17ef1f9be84"
+      }
+    ]
+  },
+  {
+    "sha": "fd79af7ae2574aaaa829e40ed780e17ef1f9be84",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6ZmQ3OWFmN2FlMjU3NGFhYWE4MjllNDBlZDc4MGUxN2VmMWY5YmU4NA==",
+    "commit": {
+      "author": {
+        "name": "Julien Palard",
+        "email": "julien@palard.fr",
+        "date": "2021-04-13T16:03:22Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-13T16:03:22Z"
+      },
+      "message": "Doc: Try to enhance wording on circular imports. (GH-24705)",
+      "tree": {
+        "sha": "a85efb269287fd99d8e44a9213ad0dad4aaff73f",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/a85efb269287fd99d8e44a9213ad0dad4aaff73f"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/fd79af7ae2574aaaa829e40ed780e17ef1f9be84",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdcDKCRBK7hj4Ov3rIwAAdHIIACo+1uAZWa1wb6rq9wyf0Haq\nFW1YkZQvpz/Ik45riSuEybo2kLoQ28nc+Cj5e1yC28X/Whl9gjeo7zoNWQdlaTt8\nfxWkl0vttChv0gJfLR94CN5Le26Iirqn85rik9oO4JlRs67jD1ZOi+JzdN1Y66Eo\ntMufyeR6zxmlJ3NRHdsO2r3woPNfp6xOD1DSLovBtMi7iAyQNCyJp6nxyaAlzGoJ\nxN0tLScpop2SQUEvhEvVQlip7TTbO5c6UevfGmKkdpDrIpVjYwyEXN7DIlzxCBFX\nFjEV6OvmnCq+7UxnQS/TOBt1ywnCvwzSApVQUfIOpqom3URRc0BlA1b58RZqnLQ=\n=hNEk\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree a85efb269287fd99d8e44a9213ad0dad4aaff73f\nparent eb77133564d74eb09ed63872a69b9827d4841b49\nauthor Julien Palard <julien@palard.fr> 1618329802 +0200\ncommitter GitHub <noreply@github.com> 1618329802 +0200\n\nDoc: Try to enhance wording on circular imports. (GH-24705)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/fd79af7ae2574aaaa829e40ed780e17ef1f9be84",
+    "html_url": "https://github.com/python/cpython/commit/fd79af7ae2574aaaa829e40ed780e17ef1f9be84",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/fd79af7ae2574aaaa829e40ed780e17ef1f9be84/comments",
+    "author": {
+      "login": "JulienPalard",
+      "id": 239510,
+      "node_id": "MDQ6VXNlcjIzOTUxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/239510?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/JulienPalard",
+      "html_url": "https://github.com/JulienPalard",
+      "followers_url": "https://api.github.com/users/JulienPalard/followers",
+      "following_url": "https://api.github.com/users/JulienPalard/following{/other_user}",
+      "gists_url": "https://api.github.com/users/JulienPalard/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/JulienPalard/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/JulienPalard/subscriptions",
+      "organizations_url": "https://api.github.com/users/JulienPalard/orgs",
+      "repos_url": "https://api.github.com/users/JulienPalard/repos",
+      "events_url": "https://api.github.com/users/JulienPalard/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/JulienPalard/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "eb77133564d74eb09ed63872a69b9827d4841b49",
+        "url": "https://api.github.com/repos/python/cpython/commits/eb77133564d74eb09ed63872a69b9827d4841b49",
+        "html_url": "https://github.com/python/cpython/commit/eb77133564d74eb09ed63872a69b9827d4841b49"
+      }
+    ]
+  },
+  {
+    "sha": "eb77133564d74eb09ed63872a69b9827d4841b49",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6ZWI3NzEzMzU2NGQ3NGViMDllZDYzODcyYTY5Yjk4MjdkNDg0MWI0OQ==",
+    "commit": {
+      "author": {
+        "name": "Karthikeyan Singaravelan",
+        "email": "tir.karthi@gmail.com",
+        "date": "2021-04-13T13:54:23Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-13T13:54:23Z"
+      },
+      "message": "bpo41515: Fix assert in test which throws SyntaxWarning. (#25379)",
+      "tree": {
+        "sha": "4f485e89a5afacb3532dbce47bf2d27e1133833e",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/4f485e89a5afacb3532dbce47bf2d27e1133833e"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/eb77133564d74eb09ed63872a69b9827d4841b49",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdaKPCRBK7hj4Ov3rIwAAdHIIADWR1tToZrMIQmcj3sBxtsRx\ny31sxBHXe/uBDxJt/1coRA8peK96B4YBBEVglJxu0SRtivQPBdHruA8QqvmuEcRG\nkATsXvtXapQOQ2TqWQwJTmX+gzxgNXk96ZowYhKxeqhUZEaB+AeZKc7NFCEBmoZs\nwEfbRGuOM3pxh9YEulkMIAM+b1houFejn6Vv4FiTX5pmPX/Dpp8PK3PWKWJgnoKi\nFZvXK6XZs/cvyDx585ZEuW6QzWUpvrbbKW02uA8dGgME4VGDXaQmUsfdDv/KoCTR\nn92PRIBUrwZbEAiY9yL1ic9iXUjioDNNBjpq30D5c2dvMBh28xpzFYM45dHlbxU=\n=LmIw\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 4f485e89a5afacb3532dbce47bf2d27e1133833e\nparent a328d73843cfd42d2aee1434c78df1ef2845931a\nauthor Karthikeyan Singaravelan <tir.karthi@gmail.com> 1618322063 +0530\ncommitter GitHub <noreply@github.com> 1618322063 -0700\n\nbpo41515: Fix assert in test which throws SyntaxWarning. (#25379)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/eb77133564d74eb09ed63872a69b9827d4841b49",
+    "html_url": "https://github.com/python/cpython/commit/eb77133564d74eb09ed63872a69b9827d4841b49",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/eb77133564d74eb09ed63872a69b9827d4841b49/comments",
+    "author": {
+      "login": "tirkarthi",
+      "id": 3972343,
+      "node_id": "MDQ6VXNlcjM5NzIzNDM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3972343?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tirkarthi",
+      "html_url": "https://github.com/tirkarthi",
+      "followers_url": "https://api.github.com/users/tirkarthi/followers",
+      "following_url": "https://api.github.com/users/tirkarthi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tirkarthi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tirkarthi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tirkarthi/subscriptions",
+      "organizations_url": "https://api.github.com/users/tirkarthi/orgs",
+      "repos_url": "https://api.github.com/users/tirkarthi/repos",
+      "events_url": "https://api.github.com/users/tirkarthi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tirkarthi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a328d73843cfd42d2aee1434c78df1ef2845931a",
+        "url": "https://api.github.com/repos/python/cpython/commits/a328d73843cfd42d2aee1434c78df1ef2845931a",
+        "html_url": "https://github.com/python/cpython/commit/a328d73843cfd42d2aee1434c78df1ef2845931a"
+      }
+    ]
+  },
+  {
+    "sha": "a328d73843cfd42d2aee1434c78df1ef2845931a",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6YTMyOGQ3Mzg0M2NmZDQyZDJhZWUxNDM0Yzc4ZGYxZWYyODQ1OTMxYQ==",
+    "commit": {
+      "author": {
+        "name": "Victor Stinner",
+        "email": "vstinner@python.org",
+        "date": "2021-04-13T13:25:16Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-13T13:25:16Z"
+      },
+      "message": "bpo-43770: Cleanup type_ready() (GH-25388)\n\n* Rename functions\r\n* Only pass type parameter to \"add_xxx\" functions.\r\n* Clarify the role of the type_ready_inherit_as_structs() function.\r\n* Move type_dict_set_doc() code to call it in type_ready_fill_dict().",
+      "tree": {
+        "sha": "531d9c250158ed99898b528661a95293e10a05df",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/531d9c250158ed99898b528661a95293e10a05df"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/a328d73843cfd42d2aee1434c78df1ef2845931a",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdZu8CRBK7hj4Ov3rIwAAdHIIAJbERc7guGTnhj9njYtV2zWy\n2jVWBgVXJR2/s0oQ+vRynFQa/hCtremklzvkcJjS7jk3rvIotsEzLVM45f3ElwmD\nVqlMXXn1yJHG88+cvwwfjg+TMJdwQjx9T77UwTdaE+FOoLSaxshyL37G1yxp6JJB\nvzkFb6O0qOEWnwQXX+431R96Vwn4h8ISK5TzpCw/wVoFjz7KjpDKafHbZE4+nWI2\nXQWxTteqjKIDaQUE8jFJyDPEGIH9sDup0NDAMAqOPYH4Y1SOMJk2DQeO89X8Q6uH\nhz/9NjGzfB7vv6uzSOqkkW9AVeISPmyTjKN2HIyPEXgUFkdNvTNNC/NEuF9uu5I=\n=kWvh\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 531d9c250158ed99898b528661a95293e10a05df\nparent 65f058eb081c9e1fe44115d1ac7966067e3650c7\nauthor Victor Stinner <vstinner@python.org> 1618320316 +0200\ncommitter GitHub <noreply@github.com> 1618320316 +0200\n\nbpo-43770: Cleanup type_ready() (GH-25388)\n\n* Rename functions\r\n* Only pass type parameter to \"add_xxx\" functions.\r\n* Clarify the role of the type_ready_inherit_as_structs() function.\r\n* Move type_dict_set_doc() code to call it in type_ready_fill_dict()."
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/a328d73843cfd42d2aee1434c78df1ef2845931a",
+    "html_url": "https://github.com/python/cpython/commit/a328d73843cfd42d2aee1434c78df1ef2845931a",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/a328d73843cfd42d2aee1434c78df1ef2845931a/comments",
+    "author": {
+      "login": "vstinner",
+      "id": 194129,
+      "node_id": "MDQ6VXNlcjE5NDEyOQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/194129?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vstinner",
+      "html_url": "https://github.com/vstinner",
+      "followers_url": "https://api.github.com/users/vstinner/followers",
+      "following_url": "https://api.github.com/users/vstinner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vstinner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vstinner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vstinner/subscriptions",
+      "organizations_url": "https://api.github.com/users/vstinner/orgs",
+      "repos_url": "https://api.github.com/users/vstinner/repos",
+      "events_url": "https://api.github.com/users/vstinner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vstinner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "65f058eb081c9e1fe44115d1ac7966067e3650c7",
+        "url": "https://api.github.com/repos/python/cpython/commits/65f058eb081c9e1fe44115d1ac7966067e3650c7",
+        "html_url": "https://github.com/python/cpython/commit/65f058eb081c9e1fe44115d1ac7966067e3650c7"
+      }
+    ]
+  },
+  {
+    "sha": "65f058eb081c9e1fe44115d1ac7966067e3650c7",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6NjVmMDU4ZWIwODFjOWUxZmU0NDExNWQxYWM3OTY2MDY3ZTM2NTBjNw==",
+    "commit": {
+      "author": {
+        "name": "Victor Stinner",
+        "email": "vstinner@python.org",
+        "date": "2021-04-13T11:33:31Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-13T11:33:31Z"
+      },
+      "message": "bpo-43770: Reorder type_ready() (GH-25373)\n\nAdd type_ready_create_dict() sub-function.\r\n\r\n* Start with type_ready_create_dict().\r\n* Call type_ready_mro() earlier, before type_ready_add_attrs().\r\n* Call type_ready_inherit_special() earlier, in type_ready_inherit().",
+      "tree": {
+        "sha": "280959d84c71bf4c20018b312b7b14b221473c83",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/280959d84c71bf4c20018b312b7b14b221473c83"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/65f058eb081c9e1fe44115d1ac7966067e3650c7",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdYGLCRBK7hj4Ov3rIwAAdHIIAFL8Qf3eokDB5Zb+BXk3/bJY\nFfJfNxLdyjps7DNEnNyYDpSw52XMI8mKiAswhA3t2t9g5DDtX1PA0FW3hOlt6/Yq\nVERLgGyB1amAoNC8p/0Wa4egI3UD17Sou4xr5UXz/abN6Z6Sx54IhtbV4oxQY0gl\nf/nOAPIpRR9nL9TJ/n5LgEut3eflVYx2MazjPyxyYan5KwvW09P5AnORwEKT8StM\nfJr/VACqm5J3lkv+xSs5HVhQJCwVrDv3aDKQG2IXHdwBF1VpLgD6hfupLMeVVFLu\nmJagjBI2YXSq14ySYEuClMPqJIf/3EsO8P4mZFr97DzjWsSn8TEknPdFG5MfXa4=\n=yBOF\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 280959d84c71bf4c20018b312b7b14b221473c83\nparent 54db51c9114ac49030832f5134979ca866ffd21c\nauthor Victor Stinner <vstinner@python.org> 1618313611 +0200\ncommitter GitHub <noreply@github.com> 1618313611 +0200\n\nbpo-43770: Reorder type_ready() (GH-25373)\n\nAdd type_ready_create_dict() sub-function.\r\n\r\n* Start with type_ready_create_dict().\r\n* Call type_ready_mro() earlier, before type_ready_add_attrs().\r\n* Call type_ready_inherit_special() earlier, in type_ready_inherit()."
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/65f058eb081c9e1fe44115d1ac7966067e3650c7",
+    "html_url": "https://github.com/python/cpython/commit/65f058eb081c9e1fe44115d1ac7966067e3650c7",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/65f058eb081c9e1fe44115d1ac7966067e3650c7/comments",
+    "author": {
+      "login": "vstinner",
+      "id": 194129,
+      "node_id": "MDQ6VXNlcjE5NDEyOQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/194129?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vstinner",
+      "html_url": "https://github.com/vstinner",
+      "followers_url": "https://api.github.com/users/vstinner/followers",
+      "following_url": "https://api.github.com/users/vstinner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vstinner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vstinner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vstinner/subscriptions",
+      "organizations_url": "https://api.github.com/users/vstinner/orgs",
+      "repos_url": "https://api.github.com/users/vstinner/repos",
+      "events_url": "https://api.github.com/users/vstinner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vstinner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "54db51c9114ac49030832f5134979ca866ffd21c",
+        "url": "https://api.github.com/repos/python/cpython/commits/54db51c9114ac49030832f5134979ca866ffd21c",
+        "html_url": "https://github.com/python/cpython/commit/54db51c9114ac49030832f5134979ca866ffd21c"
+      }
+    ]
+  },
+  {
+    "sha": "54db51c9114ac49030832f5134979ca866ffd21c",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6NTRkYjUxYzkxMTRhYzQ5MDMwODMyZjUxMzQ5NzljYTg2NmZmZDIxYw==",
+    "commit": {
+      "author": {
+        "name": "Andrew V. Jones",
+        "email": "andrewvaughanj@gmail.com",
+        "date": "2021-04-13T11:27:21Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-13T11:27:21Z"
+      },
+      "message": "bpo-43816: Add extern \"C\" to Include/cpython/pyctype.h (GH-25365)\n\nSigned-off-by: Andrew V. Jones <andrew.jones@vector.com>",
+      "tree": {
+        "sha": "e35f9100a326d23e5fefcae7d1c47ce6cb3ffb9d",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/e35f9100a326d23e5fefcae7d1c47ce6cb3ffb9d"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/54db51c9114ac49030832f5134979ca866ffd21c",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdYAZCRBK7hj4Ov3rIwAAdHIIAK0qJLuaWsCBTRX1QxvgFJkw\nok+oeASTOGDq3RK8cP4Y44Lu3z8LtY3NWLT8YA+ijHrQLHAdP20aA7/6bA1Z5908\n/ZAjpc3247/4UbT9zYQaP1eEKEPApAAa1/VXDC4pZ492WVtv3ktBUFVG9XFYOL+z\nbDKpjpkLFYh71TRlQWIHrQ/IFSbRcygCXCbRg1F9MzCOVWMPEezyM136nm2PorNn\nJ4TQAulgueIRTuR6qoZiXmYtK9gh24CHIYuypVhIMjDU2OlM5DcnodudR2wxIGr5\nMp5RxT4NG2sZ/1y167SOGJ4Thvf5lX4VXctTe47Ks6dDiZxvymmd1eqngdwcY9c=\n=ZwCw\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e35f9100a326d23e5fefcae7d1c47ce6cb3ffb9d\nparent 9e7b2076fb4380987ad0262c4c0ca900b06475ad\nauthor Andrew V. Jones <andrewvaughanj@gmail.com> 1618313241 +0100\ncommitter GitHub <noreply@github.com> 1618313241 +0200\n\nbpo-43816: Add extern \"C\" to Include/cpython/pyctype.h (GH-25365)\n\nSigned-off-by: Andrew V. Jones <andrew.jones@vector.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/54db51c9114ac49030832f5134979ca866ffd21c",
+    "html_url": "https://github.com/python/cpython/commit/54db51c9114ac49030832f5134979ca866ffd21c",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/54db51c9114ac49030832f5134979ca866ffd21c/comments",
+    "author": {
+      "login": "andrewvaughanj",
+      "id": 14277540,
+      "node_id": "MDQ6VXNlcjE0Mjc3NTQw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14277540?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/andrewvaughanj",
+      "html_url": "https://github.com/andrewvaughanj",
+      "followers_url": "https://api.github.com/users/andrewvaughanj/followers",
+      "following_url": "https://api.github.com/users/andrewvaughanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/andrewvaughanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/andrewvaughanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/andrewvaughanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/andrewvaughanj/orgs",
+      "repos_url": "https://api.github.com/users/andrewvaughanj/repos",
+      "events_url": "https://api.github.com/users/andrewvaughanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/andrewvaughanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9e7b2076fb4380987ad0262c4c0ca900b06475ad",
+        "url": "https://api.github.com/repos/python/cpython/commits/9e7b2076fb4380987ad0262c4c0ca900b06475ad",
+        "html_url": "https://github.com/python/cpython/commit/9e7b2076fb4380987ad0262c4c0ca900b06475ad"
+      }
+    ]
+  },
+  {
+    "sha": "9e7b2076fb4380987ad0262c4c0ca900b06475ad",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6OWU3YjIwNzZmYjQzODA5ODdhZDAyNjJjNGMwY2E5MDBiMDY0NzVhZA==",
+    "commit": {
+      "author": {
+        "name": "Mark Shannon",
+        "email": "mark@hotpy.org",
+        "date": "2021-04-13T10:08:14Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-13T10:08:14Z"
+      },
+      "message": "bpo-43760: Speed up check for tracing in interpreter dispatch (#25276)\n\n* Remove redundant tracing_possible field from interpreter state.\r\n\r\n* Move 'use_tracing' from tstate onto C stack, for fastest possible checking in dispatch logic.\r\n\r\n* Add comments stressing the importance stack discipline when dealing with CFrames.\r\n\r\n* Add NEWS",
+      "tree": {
+        "sha": "d7a4902fa70e0014849fd77f07d89f39bb2e7494",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/d7a4902fa70e0014849fd77f07d89f39bb2e7494"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/9e7b2076fb4380987ad0262c4c0ca900b06475ad",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdW2OCRBK7hj4Ov3rIwAAdHIIAEsNEAVWKDUhkwemzrFWPNT9\n1ltuVz1QJvd6Vv1GRdg1SzdlbIETuNxhPFT4NJnJRLAG+WW/Or6EHva8XT2h9qDQ\nFSmcMJSfz7IgFKTFZuyqFnK05y5Y2OsePNAqh9BnPxa2fMLHCSZH2RDiwnUTryNm\nUaW9c5HEaW1NZCkqDbGB41XpTPIbTDOkat+Qcb8IT608htENPxG8HnpLcTLo9rw3\n+v6JFWpt5Hld5Vq8zQxt/Lr0Uz51tQiDzB2yGEuyFnxfXqZHsak0o40RoEaTfYdq\nDcktxLEr5udBNF4fQAPkgohoI55O/+63AU9JJmLWEE9r9cHZnn3m2hFPUu4CtO4=\n=Pv2Q\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree d7a4902fa70e0014849fd77f07d89f39bb2e7494\nparent c2b7a66b91cdb96fbfdb160f96797208ddc5e436\nauthor Mark Shannon <mark@hotpy.org> 1618308494 +0100\ncommitter GitHub <noreply@github.com> 1618308494 +0100\n\nbpo-43760: Speed up check for tracing in interpreter dispatch (#25276)\n\n* Remove redundant tracing_possible field from interpreter state.\r\n\r\n* Move 'use_tracing' from tstate onto C stack, for fastest possible checking in dispatch logic.\r\n\r\n* Add comments stressing the importance stack discipline when dealing with CFrames.\r\n\r\n* Add NEWS"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/9e7b2076fb4380987ad0262c4c0ca900b06475ad",
+    "html_url": "https://github.com/python/cpython/commit/9e7b2076fb4380987ad0262c4c0ca900b06475ad",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/9e7b2076fb4380987ad0262c4c0ca900b06475ad/comments",
+    "author": {
+      "login": "markshannon",
+      "id": 9448417,
+      "node_id": "MDQ6VXNlcjk0NDg0MTc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9448417?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/markshannon",
+      "html_url": "https://github.com/markshannon",
+      "followers_url": "https://api.github.com/users/markshannon/followers",
+      "following_url": "https://api.github.com/users/markshannon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/markshannon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/markshannon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/markshannon/subscriptions",
+      "organizations_url": "https://api.github.com/users/markshannon/orgs",
+      "repos_url": "https://api.github.com/users/markshannon/repos",
+      "events_url": "https://api.github.com/users/markshannon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/markshannon/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c2b7a66b91cdb96fbfdb160f96797208ddc5e436",
+        "url": "https://api.github.com/repos/python/cpython/commits/c2b7a66b91cdb96fbfdb160f96797208ddc5e436",
+        "html_url": "https://github.com/python/cpython/commit/c2b7a66b91cdb96fbfdb160f96797208ddc5e436"
+      }
+    ]
+  },
+  {
+    "sha": "c2b7a66b91cdb96fbfdb160f96797208ddc5e436",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6YzJiN2E2NmI5MWNkYjk2ZmJmZGIxNjBmOTY3OTcyMDhkZGM1ZTQzNg==",
+    "commit": {
+      "author": {
+        "name": "Inada Naoki",
+        "email": "songofacandy@gmail.com",
+        "date": "2021-04-13T09:17:03Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-13T09:17:03Z"
+      },
+      "message": "bpo-43731: Add an `encoding` parameter to logging.fileConfig() (GH-25273)",
+      "tree": {
+        "sha": "fd8a4bcca046f1ed4fc803c8534d246522a6fb2b",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/fd8a4bcca046f1ed4fc803c8534d246522a6fb2b"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/c2b7a66b91cdb96fbfdb160f96797208ddc5e436",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdWGPCRBK7hj4Ov3rIwAAdHIIAFEcCx3+SEPgojVeDSahJRx5\nYyQ/pIkRYNFt9hf1zVwE3VTZ3aiJQTYAbVWXbMYRcLamvN5DWDsOu1K5U6bivPMy\nnzPsXkoaq6lNV3t4Cvn/K1yvVhap+klZkFzBCE1xwxvPcqMpjUZjEdqoDSTKEhYb\n5ejaKDZtLeiG4fb2MoqHOSksck60fTIRwcWvidHfuHKWV54vgSkuYdNYKpm3tRxo\ntaLe0c0sElZvB0eo4eDJflva+LiJelUWNpy6+O4CYkoulvm+dgENRdp341ukLZDr\nw0YQTlz7+Qiefc//X0Wz3g54Knixf0ZgYUOIY/eiYWMbSsq5mUvBytmABaljJ/c=\n=k3C8\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree fd8a4bcca046f1ed4fc803c8534d246522a6fb2b\nparent a4833883c9b81b6b272cc7c5b67fa1658b65304c\nauthor Inada Naoki <songofacandy@gmail.com> 1618305423 +0900\ncommitter GitHub <noreply@github.com> 1618305423 +0900\n\nbpo-43731: Add an `encoding` parameter to logging.fileConfig() (GH-25273)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/c2b7a66b91cdb96fbfdb160f96797208ddc5e436",
+    "html_url": "https://github.com/python/cpython/commit/c2b7a66b91cdb96fbfdb160f96797208ddc5e436",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/c2b7a66b91cdb96fbfdb160f96797208ddc5e436/comments",
+    "author": {
+      "login": "methane",
+      "id": 199592,
+      "node_id": "MDQ6VXNlcjE5OTU5Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/199592?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/methane",
+      "html_url": "https://github.com/methane",
+      "followers_url": "https://api.github.com/users/methane/followers",
+      "following_url": "https://api.github.com/users/methane/following{/other_user}",
+      "gists_url": "https://api.github.com/users/methane/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/methane/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/methane/subscriptions",
+      "organizations_url": "https://api.github.com/users/methane/orgs",
+      "repos_url": "https://api.github.com/users/methane/repos",
+      "events_url": "https://api.github.com/users/methane/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/methane/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a4833883c9b81b6b272cc7c5b67fa1658b65304c",
+        "url": "https://api.github.com/repos/python/cpython/commits/a4833883c9b81b6b272cc7c5b67fa1658b65304c",
+        "html_url": "https://github.com/python/cpython/commit/a4833883c9b81b6b272cc7c5b67fa1658b65304c"
+      }
+    ]
+  },
+  {
+    "sha": "a4833883c9b81b6b272cc7c5b67fa1658b65304c",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6YTQ4MzM4ODNjOWI4MWI2YjI3MmNjN2M1YjY3ZmExNjU4YjY1MzA0Yw==",
+    "commit": {
+      "author": {
+        "name": "Christian Heimes",
+        "email": "christian@python.org",
+        "date": "2021-04-13T06:17:26Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-13T06:17:26Z"
+      },
+      "message": "bpo-43799: OpenSSL 3.0.0: declare OPENSSL_API_COMPAT 1.1.1 (GH-25329)\n\nSigned-off-by: Christian Heimes <christian@python.org>",
+      "tree": {
+        "sha": "9196b308ebc13cf105eb352b1f8b4fe22f115e7e",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/9196b308ebc13cf105eb352b1f8b4fe22f115e7e"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/a4833883c9b81b6b272cc7c5b67fa1658b65304c",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdTd2CRBK7hj4Ov3rIwAAdHIIAC/zcd99IhbJdX9rSxkDl9pp\n/iVy0WbjIvnSux4bG8eD1siT0P9qdrSkl+UpZILQKTIluw29slTZUj7HwFQ/c7Ew\n4ojWPxl4h04Xl7+QsfbvLGY3MPn8lxblMimUcFmSpNSPOEDaH/j0V5zj0efKhHsc\ng9SVZUdp849SpsihD6XvzYF7GSih1RwMiluwUqiMTi6KAxKjMj64F+9jdN4nPHlV\n67vls0pPtNlJf6brKtjHgK5uOg6wbU99eDnDlc5jlMiuNi/7ifKgbSzTGZxQQMwd\nBHeiAG1wFCdERiap1hVs0y11ssRAmRQaCw6Yjri+00RIdZy7JL3K0Tg/72OgSoE=\n=c7Nl\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 9196b308ebc13cf105eb352b1f8b4fe22f115e7e\nparent d2a8e69c2c605fbaa3656a5f99aa8d295f74c80e\nauthor Christian Heimes <christian@python.org> 1618294646 +0200\ncommitter GitHub <noreply@github.com> 1618294646 +0200\n\nbpo-43799: OpenSSL 3.0.0: declare OPENSSL_API_COMPAT 1.1.1 (GH-25329)\n\nSigned-off-by: Christian Heimes <christian@python.org>"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/a4833883c9b81b6b272cc7c5b67fa1658b65304c",
+    "html_url": "https://github.com/python/cpython/commit/a4833883c9b81b6b272cc7c5b67fa1658b65304c",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/a4833883c9b81b6b272cc7c5b67fa1658b65304c/comments",
+    "author": {
+      "login": "tiran",
+      "id": 444071,
+      "node_id": "MDQ6VXNlcjQ0NDA3MQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/444071?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tiran",
+      "html_url": "https://github.com/tiran",
+      "followers_url": "https://api.github.com/users/tiran/followers",
+      "following_url": "https://api.github.com/users/tiran/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tiran/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tiran/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tiran/subscriptions",
+      "organizations_url": "https://api.github.com/users/tiran/orgs",
+      "repos_url": "https://api.github.com/users/tiran/repos",
+      "events_url": "https://api.github.com/users/tiran/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tiran/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d2a8e69c2c605fbaa3656a5f99aa8d295f74c80e",
+        "url": "https://api.github.com/repos/python/cpython/commits/d2a8e69c2c605fbaa3656a5f99aa8d295f74c80e",
+        "html_url": "https://github.com/python/cpython/commit/d2a8e69c2c605fbaa3656a5f99aa8d295f74c80e"
+      }
+    ]
+  },
+  {
+    "sha": "d2a8e69c2c605fbaa3656a5f99aa8d295f74c80e",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6ZDJhOGU2OWMyYzYwNWZiYWEzNjU2YTVmOTlhYThkMjk1Zjc0YzgwZQ==",
+    "commit": {
+      "author": {
+        "name": "Inada Naoki",
+        "email": "songofacandy@gmail.com",
+        "date": "2021-04-13T04:51:49Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-13T04:51:49Z"
+      },
+      "message": "bpo-43787: Add __iter__ to GzipFile, BZ2File, and LZMAFile (GH-25353)",
+      "tree": {
+        "sha": "1f9874eec667494b36e238bb416fb133450b0f64",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/1f9874eec667494b36e238bb416fb133450b0f64"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/d2a8e69c2c605fbaa3656a5f99aa8d295f74c80e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdSNlCRBK7hj4Ov3rIwAAdHIIAHoLeYjDqfljjueBCqiVT9wI\nCQjJwiHsLGJjyRm/kq97YySdiuZsdnZJoQxBXDMWzGjmMSLoBvWKxS9YRWCS+XT1\nZsd0P/JL6JGjjbRt+FHWQjn5VVTznDehAfZEigyaMQTwh9rReTjJbxPwSKneGUgO\nqYVCzddPbMOklXMfwO5njDtwG8Zj5xiT38ab03uQZHHNWAs7ft2cnMP2HoeKFyva\nrRlm7RF3N74WgNInn2rivhmpRLzyd/fLMnLaS4zjPjGkFNZJCae3hEGIAENVGVHv\nlTYehTLpUifeoa+Ob3+fu9HWadI+4AcK3r/BOfMV9HLrK7++oLBuILVlq0HAklA=\n=ODnQ\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 1f9874eec667494b36e238bb416fb133450b0f64\nparent d9151cb45371836d39b6d53afb50c5bcd353c661\nauthor Inada Naoki <songofacandy@gmail.com> 1618289509 +0900\ncommitter GitHub <noreply@github.com> 1618289509 +0900\n\nbpo-43787: Add __iter__ to GzipFile, BZ2File, and LZMAFile (GH-25353)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/d2a8e69c2c605fbaa3656a5f99aa8d295f74c80e",
+    "html_url": "https://github.com/python/cpython/commit/d2a8e69c2c605fbaa3656a5f99aa8d295f74c80e",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/d2a8e69c2c605fbaa3656a5f99aa8d295f74c80e/comments",
+    "author": {
+      "login": "methane",
+      "id": 199592,
+      "node_id": "MDQ6VXNlcjE5OTU5Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/199592?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/methane",
+      "html_url": "https://github.com/methane",
+      "followers_url": "https://api.github.com/users/methane/followers",
+      "following_url": "https://api.github.com/users/methane/following{/other_user}",
+      "gists_url": "https://api.github.com/users/methane/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/methane/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/methane/subscriptions",
+      "organizations_url": "https://api.github.com/users/methane/orgs",
+      "repos_url": "https://api.github.com/users/methane/repos",
+      "events_url": "https://api.github.com/users/methane/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/methane/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d9151cb45371836d39b6d53afb50c5bcd353c661",
+        "url": "https://api.github.com/repos/python/cpython/commits/d9151cb45371836d39b6d53afb50c5bcd353c661",
+        "html_url": "https://github.com/python/cpython/commit/d9151cb45371836d39b6d53afb50c5bcd353c661"
+      }
+    ]
+  },
+  {
+    "sha": "d9151cb45371836d39b6d53afb50c5bcd353c661",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6ZDkxNTFjYjQ1MzcxODM2ZDM5YjZkNTNhZmI1MGM1YmNkMzUzYzY2MQ==",
+    "commit": {
+      "author": {
+        "name": "Pablo Galindo",
+        "email": "Pablogsal@gmail.com",
+        "date": "2021-04-13T01:32:33Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-13T01:32:33Z"
+      },
+      "message": "Ensure that early = are not matched by the parser as invalid comparisons (GH-25375)",
+      "tree": {
+        "sha": "2ea7c00ab4ededa92fb5405834c26d7e0c3c6c37",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/2ea7c00ab4ededa92fb5405834c26d7e0c3c6c37"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/d9151cb45371836d39b6d53afb50c5bcd353c661",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdPSxCRBK7hj4Ov3rIwAAdHIIAG7d+CEp4H3Unl+6Wq44xCuk\nxc4xE7S0rJEHmeNNX7y8ZV7yOtdtoclxIxkGB/NcVbAI2fYJeIpPWycnGbZW1f7s\nLxKuQV9s17IMrffHe23PDXJ27NvTYsVoEyTanunChmTDV4cU9aiS/7J4EBmn2BbQ\niPjocOCw0WqjTFjm+PIPkq4OdvA0Ohmn/HglPJlnYxgUdcbOr9EEkwAgtj26pHCW\n1xIdW7/IAdcEA3BArUjZwKIW5qoV2XsRuJmIbVcAeVdkK+Pqaa0/ZdD29zkVb9Hx\nNZDL1S9cZB9LMiLCM5Nl5kznN88UEaCdT44kOrGJplv7Av1WsGosst0JzxdAInk=\n=ewGh\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 2ea7c00ab4ededa92fb5405834c26d7e0c3c6c37\nparent c1a66bdd6f884e2ec813891c5c7e2b1ceeede8f1\nauthor Pablo Galindo <Pablogsal@gmail.com> 1618277553 +0100\ncommitter GitHub <noreply@github.com> 1618277553 +0100\n\nEnsure that early = are not matched by the parser as invalid comparisons (GH-25375)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/d9151cb45371836d39b6d53afb50c5bcd353c661",
+    "html_url": "https://github.com/python/cpython/commit/d9151cb45371836d39b6d53afb50c5bcd353c661",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/d9151cb45371836d39b6d53afb50c5bcd353c661/comments",
+    "author": {
+      "login": "pablogsal",
+      "id": 11718525,
+      "node_id": "MDQ6VXNlcjExNzE4NTI1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11718525?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pablogsal",
+      "html_url": "https://github.com/pablogsal",
+      "followers_url": "https://api.github.com/users/pablogsal/followers",
+      "following_url": "https://api.github.com/users/pablogsal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pablogsal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pablogsal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pablogsal/subscriptions",
+      "organizations_url": "https://api.github.com/users/pablogsal/orgs",
+      "repos_url": "https://api.github.com/users/pablogsal/repos",
+      "events_url": "https://api.github.com/users/pablogsal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pablogsal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c1a66bdd6f884e2ec813891c5c7e2b1ceeede8f1",
+        "url": "https://api.github.com/repos/python/cpython/commits/c1a66bdd6f884e2ec813891c5c7e2b1ceeede8f1",
+        "html_url": "https://github.com/python/cpython/commit/c1a66bdd6f884e2ec813891c5c7e2b1ceeede8f1"
+      }
+    ]
+  },
+  {
+    "sha": "c1a66bdd6f884e2ec813891c5c7e2b1ceeede8f1",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6YzFhNjZiZGQ2Zjg4NGUyZWM4MTM4OTFjNWM3ZTJiMWNlZWVkZThmMQ==",
+    "commit": {
+      "author": {
+        "name": "Eric V. Smith",
+        "email": "ericvsmith@users.noreply.github.com",
+        "date": "2021-04-13T01:02:02Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-13T01:02:02Z"
+      },
+      "message": "Remove an unnecessary copy of the 'namespace' parameter to make_dataclass(). (GH-25372)",
+      "tree": {
+        "sha": "a39ea5c10bbf28ca900ca49709d3a5c14e057507",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/a39ea5c10bbf28ca900ca49709d3a5c14e057507"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/c1a66bdd6f884e2ec813891c5c7e2b1ceeede8f1",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdO2KCRBK7hj4Ov3rIwAAdHIIAIgzmuFP6fjGBW1bMnY6PoXv\nK+rR7eP8WF9JwNxBlAi9CkA1lE+gaPmb4oqmGddcfpo4q4OVNQSMODVCB/FRMple\nO2O8nAOBjIMvMk3gRlbUc+Id+f6CBXF01whQrH1IKcWr8FnR29AnEaJsGSgi+euM\nTpMhHYBv2zZ0PAFKkvgG4eLk6cWt7pFKJ7YDmpTRk6rL1jDf3vsVr53DQoxapb6x\nDZPwEfVIe15odHE6kfqXVWVXUNAtuLHZZDDiVRcooRgOR6io261k4Y/IRFtjJpKY\nQc+bcrJNBFZibJzkIWdncnl5F0QWl0SQbzF+Vw2AKXe81/rcIFccIp/gAlYnym8=\n=K6oN\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree a39ea5c10bbf28ca900ca49709d3a5c14e057507\nparent 85918e4ab6e9410008aef6dedf000d24b3e120ea\nauthor Eric V. Smith <ericvsmith@users.noreply.github.com> 1618275722 -0400\ncommitter GitHub <noreply@github.com> 1618275722 -0400\n\nRemove an unnecessary copy of the 'namespace' parameter to make_dataclass(). (GH-25372)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/c1a66bdd6f884e2ec813891c5c7e2b1ceeede8f1",
+    "html_url": "https://github.com/python/cpython/commit/c1a66bdd6f884e2ec813891c5c7e2b1ceeede8f1",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/c1a66bdd6f884e2ec813891c5c7e2b1ceeede8f1/comments",
+    "author": {
+      "login": "ericvsmith",
+      "id": 489791,
+      "node_id": "MDQ6VXNlcjQ4OTc5MQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/489791?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericvsmith",
+      "html_url": "https://github.com/ericvsmith",
+      "followers_url": "https://api.github.com/users/ericvsmith/followers",
+      "following_url": "https://api.github.com/users/ericvsmith/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ericvsmith/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ericvsmith/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ericvsmith/subscriptions",
+      "organizations_url": "https://api.github.com/users/ericvsmith/orgs",
+      "repos_url": "https://api.github.com/users/ericvsmith/repos",
+      "events_url": "https://api.github.com/users/ericvsmith/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ericvsmith/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "85918e4ab6e9410008aef6dedf000d24b3e120ea",
+        "url": "https://api.github.com/repos/python/cpython/commits/85918e4ab6e9410008aef6dedf000d24b3e120ea",
+        "html_url": "https://github.com/python/cpython/commit/85918e4ab6e9410008aef6dedf000d24b3e120ea"
+      }
+    ]
+  },
+  {
+    "sha": "85918e4ab6e9410008aef6dedf000d24b3e120ea",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6ODU5MThlNGFiNmU5NDEwMDA4YWVmNmRlZGYwMDBkMjRiM2UxMjBlYQ==",
+    "commit": {
+      "author": {
+        "name": "Victor Stinner",
+        "email": "vstinner@python.org",
+        "date": "2021-04-12T21:27:35Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-12T21:27:35Z"
+      },
+      "message": "bpo-43774: Add more links to configure options (GH-25363)",
+      "tree": {
+        "sha": "e4c282aec978ebb45778dbd3897978aa42f4cea7",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/e4c282aec978ebb45778dbd3897978aa42f4cea7"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/85918e4ab6e9410008aef6dedf000d24b3e120ea",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdLtHCRBK7hj4Ov3rIwAAdHIIABjDpmpEVT7n15IYO/Lk9mN6\n9mos5Tq3YcatYNzHDm9v9cgy9cIWmuQZGiR4cqBTNCPJPmfR0yt7xytkcFDKI42I\nZeGiNob0ABmnXdeQtLfbNN1i/JqpWm975bScTBxWHg0hht4MQEcv5ogKi5qNUFdi\n1IK57S2QUWACVkIzfEXHuhzIGYUx+qM6l0WSOJhjd18b4CBCv3KP3EAGxgfkgfRl\nbBmmGaJSOqADinH8SjAcnk4p/YEz7lS9jBoy7+RsKXd3BKwWkudr8kR20tvXS9nv\nR6ckPtG64uNjA9aIMBdnucS6OlJD28020qHNrOXKY2ePXvUkA/waK/TkWgESwfk=\n=THTB\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e4c282aec978ebb45778dbd3897978aa42f4cea7\nparent 20ac34772aa9805ccbf082e700f2b033291ff5d2\nauthor Victor Stinner <vstinner@python.org> 1618262855 +0200\ncommitter GitHub <noreply@github.com> 1618262855 +0200\n\nbpo-43774: Add more links to configure options (GH-25363)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/85918e4ab6e9410008aef6dedf000d24b3e120ea",
+    "html_url": "https://github.com/python/cpython/commit/85918e4ab6e9410008aef6dedf000d24b3e120ea",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/85918e4ab6e9410008aef6dedf000d24b3e120ea/comments",
+    "author": {
+      "login": "vstinner",
+      "id": 194129,
+      "node_id": "MDQ6VXNlcjE5NDEyOQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/194129?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vstinner",
+      "html_url": "https://github.com/vstinner",
+      "followers_url": "https://api.github.com/users/vstinner/followers",
+      "following_url": "https://api.github.com/users/vstinner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vstinner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vstinner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vstinner/subscriptions",
+      "organizations_url": "https://api.github.com/users/vstinner/orgs",
+      "repos_url": "https://api.github.com/users/vstinner/repos",
+      "events_url": "https://api.github.com/users/vstinner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vstinner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "20ac34772aa9805ccbf082e700f2b033291ff5d2",
+        "url": "https://api.github.com/repos/python/cpython/commits/20ac34772aa9805ccbf082e700f2b033291ff5d2",
+        "html_url": "https://github.com/python/cpython/commit/20ac34772aa9805ccbf082e700f2b033291ff5d2"
+      }
+    ]
+  },
+  {
+    "sha": "20ac34772aa9805ccbf082e700f2b033291ff5d2",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6MjBhYzM0NzcyYWE5ODA1Y2NiZjA4MmU3MDBmMmIwMzMyOTFmZjVkMg==",
+    "commit": {
+      "author": {
+        "name": "Pablo Galindo",
+        "email": "Pablogsal@gmail.com",
+        "date": "2021-04-12T19:53:15Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-12T19:53:15Z"
+      },
+      "message": "Fix Sphinx errors in the documentation and re-activate the suspicious check (GH-25368)\n\nThe suspicious check is still executed as part of the release process and release managers have been\r\nlately fixing some actual errors that the suspicious target can find. For this reason, reactivate the suspicious\r\nuntil we decide what to do in a coordinated fashion.",
+      "tree": {
+        "sha": "9abe7f421baa15e707f003d70603c325d37d1170",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/9abe7f421baa15e707f003d70603c325d37d1170"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/20ac34772aa9805ccbf082e700f2b033291ff5d2",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdKUrCRBK7hj4Ov3rIwAAdHIIAALUukREiR8R2zlAeKNQRI5I\nsdS8W7sE6hShVQFnJ+AHGwePg8DYfQiOFDbjAJq3xTT93xDMILQKD355f6JDdHR7\nehbl0hLU00XVzre772mwMZUwceEDHPQbJO/AVg/ofC8F74qmyi5GJYRCJQBeCiOo\nYss43V+Kio+8tDwkB5R7X2PklyOWuQVMdMwCjIKfM+8RnhABBNARca/c7Eo9WBIT\nUlWKl5NOQicVfjQzyxKuEcnrD+zY6JiFf3YCscGDLt5vFzmWMgrdLJAfZRm1fOS2\nU6u2koN9pkOgV564zjFn+5F8SfFlPFY9+hVwujg8l6oyQ0CxQhSMGc5kY3VE9mo=\n=Yf21\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 9abe7f421baa15e707f003d70603c325d37d1170\nparent a9cf69df2e031d6157f01289f66ca9cf723ceb5c\nauthor Pablo Galindo <Pablogsal@gmail.com> 1618257195 +0100\ncommitter GitHub <noreply@github.com> 1618257195 +0100\n\nFix Sphinx errors in the documentation and re-activate the suspicious check (GH-25368)\n\nThe suspicious check is still executed as part of the release process and release managers have been\r\nlately fixing some actual errors that the suspicious target can find. For this reason, reactivate the suspicious\r\nuntil we decide what to do in a coordinated fashion."
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/20ac34772aa9805ccbf082e700f2b033291ff5d2",
+    "html_url": "https://github.com/python/cpython/commit/20ac34772aa9805ccbf082e700f2b033291ff5d2",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/20ac34772aa9805ccbf082e700f2b033291ff5d2/comments",
+    "author": {
+      "login": "pablogsal",
+      "id": 11718525,
+      "node_id": "MDQ6VXNlcjExNzE4NTI1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11718525?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pablogsal",
+      "html_url": "https://github.com/pablogsal",
+      "followers_url": "https://api.github.com/users/pablogsal/followers",
+      "following_url": "https://api.github.com/users/pablogsal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pablogsal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pablogsal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pablogsal/subscriptions",
+      "organizations_url": "https://api.github.com/users/pablogsal/orgs",
+      "repos_url": "https://api.github.com/users/pablogsal/repos",
+      "events_url": "https://api.github.com/users/pablogsal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pablogsal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a9cf69df2e031d6157f01289f66ca9cf723ceb5c",
+        "url": "https://api.github.com/repos/python/cpython/commits/a9cf69df2e031d6157f01289f66ca9cf723ceb5c",
+        "html_url": "https://github.com/python/cpython/commit/a9cf69df2e031d6157f01289f66ca9cf723ceb5c"
+      }
+    ]
+  },
+  {
+    "sha": "a9cf69df2e031d6157f01289f66ca9cf723ceb5c",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6YTljZjY5ZGYyZTAzMWQ2MTU3ZjAxMjg5ZjY2Y2E5Y2Y3MjNjZWI1Yw==",
+    "commit": {
+      "author": {
+        "name": "Karthikeyan Singaravelan",
+        "email": "tir.karthi@gmail.com",
+        "date": "2021-04-12T18:17:25Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-12T18:17:25Z"
+      },
+      "message": "bpo-41515: Fix KeyError raised in get_type_hints (GH-25352)\n\nCo-authored-by: Ken Jin <28750310+Fidget-Spinner@users.noreply.github.com>\r\nCo-authored-by: efahl <36704995+efahl@users.noreply.github.com>",
+      "tree": {
+        "sha": "10b37ae2e40dceb13f0725ac6d52d49ac3dc08ff",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/10b37ae2e40dceb13f0725ac6d52d49ac3dc08ff"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/a9cf69df2e031d6157f01289f66ca9cf723ceb5c",
+      "comment_count": 1,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdI61CRBK7hj4Ov3rIwAAdHIIADSuLu1neFjmoz7fVgCd5MqB\nRwhbCdgt40G5r0ZxLp1r77JyKhS9Yi5fMXr5zr2FD0NwW6Ere23uiYwUDLFAV+WL\nhV9KeugNQhptD2nG9tAXnWOK3nRhxp3wVSxcB8inKwuiVFwpB5zNuIxzSAKWG9Dp\ngHkqvzAvgoBEismENzZi2wRTogolAaGn00UHo388Oex1xa+ZrwO6W+jHC3xnnQvR\nVinHr3ItYqUBI4JtSWOIGSDJ1VYTXr9scBE5f+HmZm9/rOgQgmjw9/74qOxwxTz4\nRcjRDzn1wu7/xy0JPRDhQlKR9c6bl3ggu8yRXbZhDiSjjP05tWhD8kJ5zPF8I50=\n=nwM8\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 10b37ae2e40dceb13f0725ac6d52d49ac3dc08ff\nparent 852150ddfe68bc2696fc880175aeb855a0c16ae6\nauthor Karthikeyan Singaravelan <tir.karthi@gmail.com> 1618251445 +0530\ncommitter GitHub <noreply@github.com> 1618251445 -0700\n\nbpo-41515: Fix KeyError raised in get_type_hints (GH-25352)\n\nCo-authored-by: Ken Jin <28750310+Fidget-Spinner@users.noreply.github.com>\r\nCo-authored-by: efahl <36704995+efahl@users.noreply.github.com>\r\n"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/a9cf69df2e031d6157f01289f66ca9cf723ceb5c",
+    "html_url": "https://github.com/python/cpython/commit/a9cf69df2e031d6157f01289f66ca9cf723ceb5c",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/a9cf69df2e031d6157f01289f66ca9cf723ceb5c/comments",
+    "author": {
+      "login": "tirkarthi",
+      "id": 3972343,
+      "node_id": "MDQ6VXNlcjM5NzIzNDM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3972343?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tirkarthi",
+      "html_url": "https://github.com/tirkarthi",
+      "followers_url": "https://api.github.com/users/tirkarthi/followers",
+      "following_url": "https://api.github.com/users/tirkarthi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tirkarthi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tirkarthi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tirkarthi/subscriptions",
+      "organizations_url": "https://api.github.com/users/tirkarthi/orgs",
+      "repos_url": "https://api.github.com/users/tirkarthi/repos",
+      "events_url": "https://api.github.com/users/tirkarthi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tirkarthi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "852150ddfe68bc2696fc880175aeb855a0c16ae6",
+        "url": "https://api.github.com/repos/python/cpython/commits/852150ddfe68bc2696fc880175aeb855a0c16ae6",
+        "html_url": "https://github.com/python/cpython/commit/852150ddfe68bc2696fc880175aeb855a0c16ae6"
+      }
+    ]
+  },
+  {
+    "sha": "852150ddfe68bc2696fc880175aeb855a0c16ae6",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6ODUyMTUwZGRmZTY4YmMyNjk2ZmM4ODAxNzVhZWI4NTVhMGMxNmFlNg==",
+    "commit": {
+      "author": {
+        "name": "Ken Jin",
+        "email": "28750310+Fidget-Spinner@users.noreply.github.com",
+        "date": "2021-04-12T17:23:12Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-12T17:23:12Z"
+      },
+      "message": "bpo-42904: Fix get_type_hints for class local namespaces (GH-24201)",
+      "tree": {
+        "sha": "d4cd9bfcff32cb08f7bcdcf51d46bb82b45de397",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/d4cd9bfcff32cb08f7bcdcf51d46bb82b45de397"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/852150ddfe68bc2696fc880175aeb855a0c16ae6",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdIIACRBK7hj4Ov3rIwAAdHIIAEtsjxqeL+VbV55BzeI3tsEg\nbzNWIVWomocCF5lbKpAQ7ClLZ7o/W4vhtmGJQp4ydEJU4lgBKzuBjmTQpKHTzzEl\nU6oJkMe8EBLaY8t7+uMgS5VUStbw1i6XBKarQitZ2vcJrtQkQBuglXtcVHub5XZG\nxF4jdEk+AML32tSL2KzWT4VFpQ+m32NqHejUv0DaqQr13GcZ2e8rA2p0YuBbD810\njNjevjbTdXiVv09f0jO+OT17wBvAQMIR75r6hLn9vxVUjgDQDtWH4uSd9PoU8dxu\nbRCqOgYpKd3V8OP0CItQ9uL1dC7tCSJy8v7Juc+SsD5/hiIQoqpzd2LB/3oMT2w=\n=f5bj\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree d4cd9bfcff32cb08f7bcdcf51d46bb82b45de397\nparent 37a5e220234dd4afb8f97b810393e3d58db674a1\nauthor Ken Jin <28750310+Fidget-Spinner@users.noreply.github.com> 1618248192 +0800\ncommitter GitHub <noreply@github.com> 1618248192 -0700\n\nbpo-42904: Fix get_type_hints for class local namespaces (GH-24201)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/852150ddfe68bc2696fc880175aeb855a0c16ae6",
+    "html_url": "https://github.com/python/cpython/commit/852150ddfe68bc2696fc880175aeb855a0c16ae6",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/852150ddfe68bc2696fc880175aeb855a0c16ae6/comments",
+    "author": {
+      "login": "Fidget-Spinner",
+      "id": 28750310,
+      "node_id": "MDQ6VXNlcjI4NzUwMzEw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28750310?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Fidget-Spinner",
+      "html_url": "https://github.com/Fidget-Spinner",
+      "followers_url": "https://api.github.com/users/Fidget-Spinner/followers",
+      "following_url": "https://api.github.com/users/Fidget-Spinner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Fidget-Spinner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Fidget-Spinner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Fidget-Spinner/subscriptions",
+      "organizations_url": "https://api.github.com/users/Fidget-Spinner/orgs",
+      "repos_url": "https://api.github.com/users/Fidget-Spinner/repos",
+      "events_url": "https://api.github.com/users/Fidget-Spinner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Fidget-Spinner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "37a5e220234dd4afb8f97b810393e3d58db674a1",
+        "url": "https://api.github.com/repos/python/cpython/commits/37a5e220234dd4afb8f97b810393e3d58db674a1",
+        "html_url": "https://github.com/python/cpython/commit/37a5e220234dd4afb8f97b810393e3d58db674a1"
+      }
+    ]
+  },
+  {
+    "sha": "37a5e220234dd4afb8f97b810393e3d58db674a1",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6MzdhNWUyMjAyMzRkZDRhZmI4Zjk3YjgxMDM5M2UzZDU4ZGI2NzRhMQ==",
+    "commit": {
+      "author": {
+        "name": "Ken Jin",
+        "email": "28750310+Fidget-Spinner@users.noreply.github.com",
+        "date": "2021-04-12T17:03:20Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-12T17:03:20Z"
+      },
+      "message": "Use double quotes over single quotes for match statement grammar (GH-24943)",
+      "tree": {
+        "sha": "491273d5f9581c3c361a08df2bb3c1b788d202a0",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/491273d5f9581c3c361a08df2bb3c1b788d202a0"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/37a5e220234dd4afb8f97b810393e3d58db674a1",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdH1YCRBK7hj4Ov3rIwAAdHIIAF7ACPBedOEM5dGD+7nPHYpL\nIwNGGDz1PGu3H1vX9PM4SG4BuufOyk77c5o0lX8bjY04y7aAbCvLMYkYzuX8pYHX\nJsThQzUdFAgOWbofqi1CqD1kVgbEgqDp36NYytUVLaRICyoWO/URK6gD7QUpLB5x\nr29po2SULiI4zzTIX9YzR7YVS4CG4jpSIYNJPHRmQuTD/3Kw9+0mK+6frqKDMBka\nsfAssQtBbKOZbXe/kSrXZDDf5gROf7HAx/IR0NfkT+I6LbO6IGKqq/Us7iluEKCa\nWfs7JZI9+CRf00fIeQnKW+3FGo8HEKa3ZhQRZ1RshXL/tiFzL6PynHUi4D+iRMY=\n=VmCy\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 491273d5f9581c3c361a08df2bb3c1b788d202a0\nparent b86ed8e3bb41ede77eeab4a8bb4e2b91a8065283\nauthor Ken Jin <28750310+Fidget-Spinner@users.noreply.github.com> 1618247000 +0800\ncommitter GitHub <noreply@github.com> 1618247000 -0700\n\nUse double quotes over single quotes for match statement grammar (GH-24943)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/37a5e220234dd4afb8f97b810393e3d58db674a1",
+    "html_url": "https://github.com/python/cpython/commit/37a5e220234dd4afb8f97b810393e3d58db674a1",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/37a5e220234dd4afb8f97b810393e3d58db674a1/comments",
+    "author": {
+      "login": "Fidget-Spinner",
+      "id": 28750310,
+      "node_id": "MDQ6VXNlcjI4NzUwMzEw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28750310?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Fidget-Spinner",
+      "html_url": "https://github.com/Fidget-Spinner",
+      "followers_url": "https://api.github.com/users/Fidget-Spinner/followers",
+      "following_url": "https://api.github.com/users/Fidget-Spinner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Fidget-Spinner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Fidget-Spinner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Fidget-Spinner/subscriptions",
+      "organizations_url": "https://api.github.com/users/Fidget-Spinner/orgs",
+      "repos_url": "https://api.github.com/users/Fidget-Spinner/repos",
+      "events_url": "https://api.github.com/users/Fidget-Spinner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Fidget-Spinner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b86ed8e3bb41ede77eeab4a8bb4e2b91a8065283",
+        "url": "https://api.github.com/repos/python/cpython/commits/b86ed8e3bb41ede77eeab4a8bb4e2b91a8065283",
+        "html_url": "https://github.com/python/cpython/commit/b86ed8e3bb41ede77eeab4a8bb4e2b91a8065283"
+      }
+    ]
+  },
+  {
+    "sha": "b86ed8e3bb41ede77eeab4a8bb4e2b91a8065283",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6Yjg2ZWQ4ZTNiYjQxZWRlNzdlZWFiNGE4YmI0ZTJiOTFhODA2NTI4Mw==",
+    "commit": {
+      "author": {
+        "name": "Pablo Galindo",
+        "email": "Pablogsal@gmail.com",
+        "date": "2021-04-12T15:59:30Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-12T15:59:30Z"
+      },
+      "message": "bpo-43797: Improve syntax error for invalid comparisons (#25317)\n\n* bpo-43797: Improve syntax error for invalid comparisons\r\n\r\n* Update Lib/test/test_fstring.py\r\n\r\nCo-authored-by: Guido van Rossum <gvanrossum@gmail.com>\r\n\r\n* Apply review comments\r\n\r\n* can't -> cannot\r\n\r\nCo-authored-by: Guido van Rossum <gvanrossum@gmail.com>",
+      "tree": {
+        "sha": "250e32e95a6bead87006d2e1e1a06d9058fc3b91",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/250e32e95a6bead87006d2e1e1a06d9058fc3b91"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/b86ed8e3bb41ede77eeab4a8bb4e2b91a8065283",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdG5iCRBK7hj4Ov3rIwAAdHIIAD9iI1VuC11JdRbuUYc4W3/e\nCf+bQW2eUdKAHuv/GMJQMBwPl2LletaJkLRQT/XdskS08QjhJNxxszXe8Fd17P9W\nWaBbRxDtGNQLN9ruvueBZSxB1KpOarwaxTFb/0cZh6Jc+vZIbAus6RHenw1zhGSS\nIdu6ZOkgmBpfDS6r+UjsojtfOrYrGRoqOw1sZIV9Xed47oBfeCOGVR2kQddkvUYs\nSAjCjdkDB4O3AOR5r9rBw5Naxb804y6zPETIfNKONApEYSLDLqKPtDh/6S2GsV6w\nPgKR9qPnmDF/IAWZqLPSN13g1XKbOJaZAIKmk3ZHZgIL8lKA0p1RNnNs3PJYr3A=\n=cJOw\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 250e32e95a6bead87006d2e1e1a06d9058fc3b91\nparent 2459b92a4db69d9b14d0a86a9b81cc075894e910\nauthor Pablo Galindo <Pablogsal@gmail.com> 1618243170 +0100\ncommitter GitHub <noreply@github.com> 1618243170 +0100\n\nbpo-43797: Improve syntax error for invalid comparisons (#25317)\n\n* bpo-43797: Improve syntax error for invalid comparisons\r\n\r\n* Update Lib/test/test_fstring.py\r\n\r\nCo-authored-by: Guido van Rossum <gvanrossum@gmail.com>\r\n\r\n* Apply review comments\r\n\r\n* can't -> cannot\r\n\r\nCo-authored-by: Guido van Rossum <gvanrossum@gmail.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/b86ed8e3bb41ede77eeab4a8bb4e2b91a8065283",
+    "html_url": "https://github.com/python/cpython/commit/b86ed8e3bb41ede77eeab4a8bb4e2b91a8065283",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/b86ed8e3bb41ede77eeab4a8bb4e2b91a8065283/comments",
+    "author": {
+      "login": "pablogsal",
+      "id": 11718525,
+      "node_id": "MDQ6VXNlcjExNzE4NTI1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11718525?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pablogsal",
+      "html_url": "https://github.com/pablogsal",
+      "followers_url": "https://api.github.com/users/pablogsal/followers",
+      "following_url": "https://api.github.com/users/pablogsal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pablogsal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pablogsal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pablogsal/subscriptions",
+      "organizations_url": "https://api.github.com/users/pablogsal/orgs",
+      "repos_url": "https://api.github.com/users/pablogsal/repos",
+      "events_url": "https://api.github.com/users/pablogsal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pablogsal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2459b92a4db69d9b14d0a86a9b81cc075894e910",
+        "url": "https://api.github.com/repos/python/cpython/commits/2459b92a4db69d9b14d0a86a9b81cc075894e910",
+        "html_url": "https://github.com/python/cpython/commit/2459b92a4db69d9b14d0a86a9b81cc075894e910"
+      }
+    ]
+  },
+  {
+    "sha": "2459b92a4db69d9b14d0a86a9b81cc075894e910",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6MjQ1OWI5MmE0ZGI2OWQ5YjE0ZDBhODZhOWI4MWNjMDc1ODk0ZTkxMA==",
+    "commit": {
+      "author": {
+        "name": "Victor Stinner",
+        "email": "vstinner@python.org",
+        "date": "2021-04-12T15:58:45Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-12T15:58:45Z"
+      },
+      "message": "bpo-43774: Remove --without-cycle-gc doc (GH-25364)\n\nThe configure --without-cycle-gc option has been removed in Python\r\n2.3 by the commit cccd1e72481106b0a373117f32fda6261f3141a7. It's now\r\ntime to remove the last reference to it in the documentation.",
+      "tree": {
+        "sha": "ee786ce118f60b3e0e70092f1784de2306af7123",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/ee786ce118f60b3e0e70092f1784de2306af7123"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/2459b92a4db69d9b14d0a86a9b81cc075894e910",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdG42CRBK7hj4Ov3rIwAAdHIIAK4dshiWK5CD97QFIz2kqEEp\nS6Xm5fUaVFDCjwD3b18eKi0S8+apcR8gm2b0cEdU2IEkD/3juK2Md+ClA3eUawYY\nZWK7363WTiKVh+gzNTacmAwCsYDOeTATvFrZnWuDKWj7GTmLmv1u+rlcpic0qrQr\n1/12OATVNO27h4YUidyTz212H++JdQt7KQSTha4IjMutuAoOZlty899thjkyg9XL\nBOh0DwNdtN1kut7rpEoLsdjUgwf1G+4dpfUe1MNyrIwGrnqtWay5dr5bPDvB8mFP\naETgvVj/rcyoSfVEG27JvH42mFO170wXxEbSQJvlhF3xXamhwaGGgGA+eYQ8nQw=\n=ZhsM\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree ee786ce118f60b3e0e70092f1784de2306af7123\nparent 8c14f5a787b21d5a1eae5d5ee981431d1c0e055f\nauthor Victor Stinner <vstinner@python.org> 1618243125 +0200\ncommitter GitHub <noreply@github.com> 1618243125 +0100\n\nbpo-43774: Remove --without-cycle-gc doc (GH-25364)\n\nThe configure --without-cycle-gc option has been removed in Python\r\n2.3 by the commit cccd1e72481106b0a373117f32fda6261f3141a7. It's now\r\ntime to remove the last reference to it in the documentation."
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/2459b92a4db69d9b14d0a86a9b81cc075894e910",
+    "html_url": "https://github.com/python/cpython/commit/2459b92a4db69d9b14d0a86a9b81cc075894e910",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/2459b92a4db69d9b14d0a86a9b81cc075894e910/comments",
+    "author": {
+      "login": "vstinner",
+      "id": 194129,
+      "node_id": "MDQ6VXNlcjE5NDEyOQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/194129?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vstinner",
+      "html_url": "https://github.com/vstinner",
+      "followers_url": "https://api.github.com/users/vstinner/followers",
+      "following_url": "https://api.github.com/users/vstinner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vstinner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vstinner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vstinner/subscriptions",
+      "organizations_url": "https://api.github.com/users/vstinner/orgs",
+      "repos_url": "https://api.github.com/users/vstinner/repos",
+      "events_url": "https://api.github.com/users/vstinner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vstinner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8c14f5a787b21d5a1eae5d5ee981431d1c0e055f",
+        "url": "https://api.github.com/repos/python/cpython/commits/8c14f5a787b21d5a1eae5d5ee981431d1c0e055f",
+        "html_url": "https://github.com/python/cpython/commit/8c14f5a787b21d5a1eae5d5ee981431d1c0e055f"
+      }
+    ]
+  },
+  {
+    "sha": "8c14f5a787b21d5a1eae5d5ee981431d1c0e055f",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6OGMxNGY1YTc4N2IyMWQ1YTFlYWU1ZDVlZTk4MTQzMWQxYzBlMDU1Zg==",
+    "commit": {
+      "author": {
+        "name": "Ethan Furman",
+        "email": "ethan@stoneleaf.us",
+        "date": "2021-04-12T15:51:20Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-12T15:51:20Z"
+      },
+      "message": "bpo-42248: [Enum] ensure exceptions raised in ``_missing_`` are released (GH-25350)",
+      "tree": {
+        "sha": "839f0496da66f0459427ef58c83a4af56eae001e",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/839f0496da66f0459427ef58c83a4af56eae001e"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/8c14f5a787b21d5a1eae5d5ee981431d1c0e055f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdGx4CRBK7hj4Ov3rIwAAdHIIAECM+rgFvJfO9Rf0jak6zijQ\nSx4eXkxsXy58UNuCsl9sxEi59TzcYhDZELKRSbPC2HoR4T/sImcq0CNFVK0BmY3U\nqO1PpeBxq2hnboEoQq+ZWy2mQRtQ9su1cv0B7au2TeuuzArvDj8y6UleJzwpT7wu\nVMuI/ALFGa+4GS/wSFbIROTjPsGIJHKSLL5gx+bnwYADoPQWsQ/0OE7qVNl1jN6g\nzxi/kqazcZ5TwwnR6ce1b0H7kIBYav2+bCB9/ea6tHVIO2fqMCI/FbNtt3UGBd9Q\n1PUvZmFy+3UV7IaLYfnysfavxFyjGDtqGKHHY+dgX2Zf9w1IT/oELhiIWqw9g6M=\n=gSiV\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 839f0496da66f0459427ef58c83a4af56eae001e\nparent 67c0b3d89c4da9750fdb43fc66d3924681b22d2e\nauthor Ethan Furman <ethan@stoneleaf.us> 1618242680 -0700\ncommitter GitHub <noreply@github.com> 1618242680 -0700\n\nbpo-42248: [Enum] ensure exceptions raised in ``_missing_`` are released (GH-25350)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/8c14f5a787b21d5a1eae5d5ee981431d1c0e055f",
+    "html_url": "https://github.com/python/cpython/commit/8c14f5a787b21d5a1eae5d5ee981431d1c0e055f",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/8c14f5a787b21d5a1eae5d5ee981431d1c0e055f/comments",
+    "author": {
+      "login": "ethanfurman",
+      "id": 7659890,
+      "node_id": "MDQ6VXNlcjc2NTk4OTA=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7659890?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ethanfurman",
+      "html_url": "https://github.com/ethanfurman",
+      "followers_url": "https://api.github.com/users/ethanfurman/followers",
+      "following_url": "https://api.github.com/users/ethanfurman/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ethanfurman/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ethanfurman/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ethanfurman/subscriptions",
+      "organizations_url": "https://api.github.com/users/ethanfurman/orgs",
+      "repos_url": "https://api.github.com/users/ethanfurman/repos",
+      "events_url": "https://api.github.com/users/ethanfurman/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ethanfurman/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "67c0b3d89c4da9750fdb43fc66d3924681b22d2e",
+        "url": "https://api.github.com/repos/python/cpython/commits/67c0b3d89c4da9750fdb43fc66d3924681b22d2e",
+        "html_url": "https://github.com/python/cpython/commit/67c0b3d89c4da9750fdb43fc66d3924681b22d2e"
+      }
+    ]
+  },
+  {
+    "sha": "67c0b3d89c4da9750fdb43fc66d3924681b22d2e",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6NjdjMGIzZDg5YzRkYTk3NTBmZGI0M2ZjNjZkMzkyNDY4MWIyMmQyZQ==",
+    "commit": {
+      "author": {
+        "name": "Zackery Spytz",
+        "email": "zspytz@gmail.com",
+        "date": "2021-04-12T15:39:31Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-12T15:39:31Z"
+      },
+      "message": "bpo-41661: Document os.path.relpath() exception on Windows with different drives (GH-25346)",
+      "tree": {
+        "sha": "b6c05d1d6344ae9ffc3857fd66826f8e64d153fe",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/b6c05d1d6344ae9ffc3857fd66826f8e64d153fe"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/67c0b3d89c4da9750fdb43fc66d3924681b22d2e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdGmzCRBK7hj4Ov3rIwAAdHIIAIQvUumvas4X+JgeNz2L+eSB\n6Oms0WVe2cfAkLYMZmExD/ODcl6+oW7nKPRbRq7ipdxG+zjlrIj6aoecfdSWlIgw\nH7l/Xg7odNG3QamgpgE2HRB5fRh+WkqXMpN3xEuDl7mUA3vkFpQxSktCv2GY8vFb\n7gOhCtcAGCdaEpVOHGE8L2s/ctsS8EGdNVSwrHl/HuFbZsJpoQXVTVaScEm3IWtt\nJPCV8JZJISG1QiFN4udRnd2HNEsfOHYmuftSoQCSU4cPUmoMWW1fEzmKfMnmmwer\nMOZus3L91E2A7HfK9MQ+4HXDbphVRTgLRHDgwWVeBWDf3Xx7J8T4KG07CI0hURQ=\n=JsCS\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b6c05d1d6344ae9ffc3857fd66826f8e64d153fe\nparent e126547c070fbc080562abb08e16a2c93a8a805d\nauthor Zackery Spytz <zspytz@gmail.com> 1618241971 -0600\ncommitter GitHub <noreply@github.com> 1618241971 +0100\n\nbpo-41661: Document os.path.relpath() exception on Windows with different drives (GH-25346)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/67c0b3d89c4da9750fdb43fc66d3924681b22d2e",
+    "html_url": "https://github.com/python/cpython/commit/67c0b3d89c4da9750fdb43fc66d3924681b22d2e",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/67c0b3d89c4da9750fdb43fc66d3924681b22d2e/comments",
+    "author": {
+      "login": "ZackerySpytz",
+      "id": 25091963,
+      "node_id": "MDQ6VXNlcjI1MDkxOTYz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25091963?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ZackerySpytz",
+      "html_url": "https://github.com/ZackerySpytz",
+      "followers_url": "https://api.github.com/users/ZackerySpytz/followers",
+      "following_url": "https://api.github.com/users/ZackerySpytz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ZackerySpytz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ZackerySpytz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ZackerySpytz/subscriptions",
+      "organizations_url": "https://api.github.com/users/ZackerySpytz/orgs",
+      "repos_url": "https://api.github.com/users/ZackerySpytz/repos",
+      "events_url": "https://api.github.com/users/ZackerySpytz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ZackerySpytz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e126547c070fbc080562abb08e16a2c93a8a805d",
+        "url": "https://api.github.com/repos/python/cpython/commits/e126547c070fbc080562abb08e16a2c93a8a805d",
+        "html_url": "https://github.com/python/cpython/commit/e126547c070fbc080562abb08e16a2c93a8a805d"
+      }
+    ]
+  },
+  {
+    "sha": "e126547c070fbc080562abb08e16a2c93a8a805d",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6ZTEyNjU0N2MwNzBmYmMwODA1NjJhYmIwOGUxNmEyYzkzYThhODA1ZA==",
+    "commit": {
+      "author": {
+        "name": "Cédric Krier",
+        "email": "cedk@users.noreply.github.com",
+        "date": "2021-04-12T12:17:40Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-12T12:17:40Z"
+      },
+      "message": "bpo-34311: Add locale.localize (GH-15275)\n\n* Add method localize to the locale module\r\n* Update the documentation of the locale module",
+      "tree": {
+        "sha": "ec2d7f22999855aa870d69891fb476106f2b9fe0",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/ec2d7f22999855aa870d69891fb476106f2b9fe0"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/e126547c070fbc080562abb08e16a2c93a8a805d",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdDpkCRBK7hj4Ov3rIwAAdHIIAGuRS5jMJ1m0SzUPSJM8yI6z\nt7cE9Rjxsy5cqrhWe/PTPAWUtz9V6WFdttgjVkPAIbV02npUZeJs/VcfO9FqPxXn\nEqefWhJV+pVsEhBJVp07l/W4qBj5FQcr2DdtwOBLtzEJyAweDdatXmDDDTiK9wa4\n5IRFIhNNmUuuvUwYH9O1AtXKYI9OYxuUuw9IDlKOGShjtz7BhhaIQRbwEbhlv5Yh\n3mnmwooT5K8P2qsNPlG29G2uh/f9Zw2J5GKP54yeSA5IKq0n/f7ToHIdN2hPHwoc\n2t4lYuOQ43xf/Q1PfHnVZmUYoaxLvz0O1sTry0If9yb29Gq0Nib06Z5+1JvtkeQ=\n=iri2\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree ec2d7f22999855aa870d69891fb476106f2b9fe0\nparent 95bbb331ecb3ef5d05859d90b287cc3d27613c86\nauthor Cédric Krier <cedk@users.noreply.github.com> 1618229860 +0200\ncommitter GitHub <noreply@github.com> 1618229860 +0200\n\nbpo-34311: Add locale.localize (GH-15275)\n\n* Add method localize to the locale module\r\n* Update the documentation of the locale module"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/e126547c070fbc080562abb08e16a2c93a8a805d",
+    "html_url": "https://github.com/python/cpython/commit/e126547c070fbc080562abb08e16a2c93a8a805d",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/e126547c070fbc080562abb08e16a2c93a8a805d/comments",
+    "author": {
+      "login": "cedk",
+      "id": 836961,
+      "node_id": "MDQ6VXNlcjgzNjk2MQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/836961?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cedk",
+      "html_url": "https://github.com/cedk",
+      "followers_url": "https://api.github.com/users/cedk/followers",
+      "following_url": "https://api.github.com/users/cedk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cedk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cedk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cedk/subscriptions",
+      "organizations_url": "https://api.github.com/users/cedk/orgs",
+      "repos_url": "https://api.github.com/users/cedk/repos",
+      "events_url": "https://api.github.com/users/cedk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cedk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "95bbb331ecb3ef5d05859d90b287cc3d27613c86",
+        "url": "https://api.github.com/repos/python/cpython/commits/95bbb331ecb3ef5d05859d90b287cc3d27613c86",
+        "html_url": "https://github.com/python/cpython/commit/95bbb331ecb3ef5d05859d90b287cc3d27613c86"
+      }
+    ]
+  },
+  {
+    "sha": "95bbb331ecb3ef5d05859d90b287cc3d27613c86",
+    "node_id": "MDY6Q29tbWl0ODE1OTg5NjE6OTViYmIzMzFlY2IzZWY1ZDA1ODU5ZDkwYjI4N2NjM2QyNzYxM2M4Ng==",
+    "commit": {
+      "author": {
+        "name": "Christian Heimes",
+        "email": "christian@python.org",
+        "date": "2021-04-12T11:12:36Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-04-12T11:12:36Z"
+      },
+      "message": "bpo-43723: Fix deprecation error caused by thread.setDaemon() (GH-25361)",
+      "tree": {
+        "sha": "e34682d708083b4c2f4bbae5e20f55835a711d8e",
+        "url": "https://api.github.com/repos/python/cpython/git/trees/e34682d708083b4c2f4bbae5e20f55835a711d8e"
+      },
+      "url": "https://api.github.com/repos/python/cpython/git/commits/95bbb331ecb3ef5d05859d90b287cc3d27613c86",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgdCskCRBK7hj4Ov3rIwAAdHIIAF4dTx3uT5J70n9xNzofde2K\nynW8Ait/rr9wkTB0N6ibxjT0rSHszw/tBrNKGS3k9msouTyh1D/bdjwaoUVR0Cdm\nNVE4kC9EFlZM4Fl1v+P5gY0pWYp4adn/4I/MfN/rj0GQIIwUxLiZXipXQL0TJHoi\n6kmf1fGMVhOUqW8h6PZ8jTk62ibcLB8TKyxZtSAuCP78oYHZnWSaflbN/FA+Wvka\nO5AG8Au8nrzSFO91cBoSyHUYSBvqj2dWlUyGO3m0evM3/8+MrqxfxlnJVnqZA3dk\nkUzhQinV28Ks+/AYYNwKrDfnVbUDAN9Je1TivLlAfg+fbgM7z3MBzjcpRgoNSzk=\n=3OYS\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e34682d708083b4c2f4bbae5e20f55835a711d8e\nparent 3447750073aff229b049e4ccd6217db2811dcfd1\nauthor Christian Heimes <christian@python.org> 1618225956 +0200\ncommitter GitHub <noreply@github.com> 1618225956 +0200\n\nbpo-43723: Fix deprecation error caused by thread.setDaemon() (GH-25361)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/python/cpython/commits/95bbb331ecb3ef5d05859d90b287cc3d27613c86",
+    "html_url": "https://github.com/python/cpython/commit/95bbb331ecb3ef5d05859d90b287cc3d27613c86",
+    "comments_url": "https://api.github.com/repos/python/cpython/commits/95bbb331ecb3ef5d05859d90b287cc3d27613c86/comments",
+    "author": {
+      "login": "tiran",
+      "id": 444071,
+      "node_id": "MDQ6VXNlcjQ0NDA3MQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/444071?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tiran",
+      "html_url": "https://github.com/tiran",
+      "followers_url": "https://api.github.com/users/tiran/followers",
+      "following_url": "https://api.github.com/users/tiran/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tiran/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tiran/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tiran/subscriptions",
+      "organizations_url": "https://api.github.com/users/tiran/orgs",
+      "repos_url": "https://api.github.com/users/tiran/repos",
+      "events_url": "https://api.github.com/users/tiran/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tiran/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3447750073aff229b049e4ccd6217db2811dcfd1",
+        "url": "https://api.github.com/repos/python/cpython/commits/3447750073aff229b049e4ccd6217db2811dcfd1",
+        "html_url": "https://github.com/python/cpython/commit/3447750073aff229b049e4ccd6217db2811dcfd1"
+      }
+    ]
+  }
+]
