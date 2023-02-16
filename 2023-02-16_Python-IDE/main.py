@@ -1,5 +1,4 @@
 from time import time
-from fastapi import FastAPI
 
 
 def factorial(n: int) -> int:
