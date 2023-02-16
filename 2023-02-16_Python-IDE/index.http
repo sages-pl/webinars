@@ -1,0 +1,24 @@
+GET https://python.astrotech.io/
+
+> {%
+    client.test("Request #1 is 200", function() {
+        client.assert(response.status === 200, "Response status is not 200");
+    });
+%}
+
+
+###
+
+POST https://python.astrotech.io/login
+Content-Type: application/json
+
+{
+    "username": "mwatney",
+    "password": "Ares3"
+}
+
+> {%
+    client.test("Request #2 is 200", function() {
+        client.assert(response.status === 200, "Response status is not 200");
+    });
+%}
