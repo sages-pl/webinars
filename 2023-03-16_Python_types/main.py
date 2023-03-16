@@ -365,3 +365,15 @@ text
 text = r'hello \n {name}'
 text
 %history
+with open('/tmp/myfile.txt') as file:
+    print(file.read())
+text = 'cześć'
+with open('/tmp/myfile.txt', mode='w', encoding='cp1250') as file:
+    file.write(text.encode('cp1250'))
+with open('/tmp/myfile.txt', mode='w', encoding='cp1250') as file:
+    file.write(text)
+with open('/tmp/myfile.txt') as file:
+    print(file.read())
+with open('/tmp/myfile.txt', encoding='cp1250') as file:
+    print(file.read())
+%history
