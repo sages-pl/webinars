@@ -1,3 +1,4 @@
+https://github.com/sages-pl/webinars/
 https://github.com/sages-pl/webinars/blob/main/2023-06-07_AsyncIO/main.py
 https://www.youtube.com/playlist?list=PLhNSoGM2ik6SIkVGXWBwerucXjgP1rHmB
 
