@@ -13,6 +13,13 @@ Imię naszego bohatera
 def add(a, b):
     """
     Docstring do funkcji
+
+    >>> add(1, 2)
+    3
+    >>> add(1.0, 2.0)
+    3.0
+    >>> add('a', 'b')
+    'ab'
     """
     return a + b
 
