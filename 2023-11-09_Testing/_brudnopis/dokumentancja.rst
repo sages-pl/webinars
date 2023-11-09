@@ -8,7 +8,7 @@ Treść naszego dokumentu
 Sprawdzamy int:
 
 >>> add(1, 2)
-3
+4
 
 Sprawdzamy float:
 
