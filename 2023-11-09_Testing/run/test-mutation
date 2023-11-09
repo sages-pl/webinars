@@ -1,0 +1,3 @@
+mutmut run || true
+mutmut results
+mutmut junitxml --suspicious-policy=ignore --untested-policy=ignore > .tmp/xunit.xml

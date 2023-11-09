@@ -1,0 +1,3 @@
+export PYTHONPATH=src
+mkdir -p .tmp
+python3 -m bandit --format json --output=.tmp/bandit.json --recursive src

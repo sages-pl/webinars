@@ -1,1 +1,40 @@
+pipeline {
+  agent any
+  triggers { pollSCM('* * * * *') }
 
+  stages {
+    stage('Env Prepare')            { steps { sh 'run/env-prepare' }}
+    stage('Env Setup')              { steps { sh 'run/env-setup' }}
+    stage('Env Debug')              { steps { sh 'run/env-debug' }}
+
+    stage('Test') {
+    parallel {
+        stage('Test Code Style')    { steps { sh 'run/test-codestyle' }}
+        stage('Test Functional')    { steps { sh 'run/test-functional' }}
+        stage('Test Integration')   { steps { sh 'run/test-integration' }}
+        stage('Test Lint')          { steps { sh 'run/test-lint' }}
+        stage('Test Load')          { steps { sh 'run/test-load' }}
+        stage('Test Mutation')      { steps { sh 'run/test-mutation' }}
+        stage('Test Regression')    { steps { sh 'run/test-regression' }}
+        stage('Test Security')      { steps { sh 'run/test-security' }}
+        stage('Test Smoke')         { steps { sh 'run/test-smoke' }}
+        stage('Test Static')        { steps { sh 'run/test-static' }}
+        stage('Test UI')            { steps { sh 'run/test-ui' }}
+        stage('Test Unit')          { steps { sh 'run/test-unit' }}
+    }}
+    stage('Test Report')            { steps { sh 'run/test-report' }}
+
+    stage('Artifact Prepare')       { steps { sh 'run/artifact-prepare' }}
+    stage('Artifact Build')         { steps { sh 'run/artifact-create' }}
+    stage('Artifact Publish')       { steps { sh 'run/artifact-publish' }}
+    stage('Artifact Cleanup')       { steps { sh 'run/artifact-cleanup' }}
+
+    stage('Deploy Dev')             { steps { sh 'run/deploy-dev' }}
+    stage('Deploy Test')            { steps { sh 'run/deploy-test' }}
+    stage('Deploy Preprod')         { steps { sh 'run/deploy-preprod' }}
+    stage('Deploy Prod')            { steps { sh 'run/deploy-prod' }}
+  }
+}
+
+// To run all:
+// grep -Po "^[^/].*sh '\K.+(?=')" Jenkinsfile |sh -x

@@ -1,0 +1,3 @@
+export PYTHONPATH=src
+python3 -m pylint --msg-template="{path}:{line}: [{msg_id}({symbol}), {obj}] {msg}" --output=.tmp/pylint.txt --disable=C0114,C0115,C0116,E0401,C0103 src
+python3 -m pylama --verbose --async src/
