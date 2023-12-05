@@ -19,3 +19,88 @@ sha512(b'hello@facebook.com').hexdigest()
 # komputery kwantowe
 
 # passkey
+# regresja liniowa
+
+
+
+# przypisanie
+# porównanie
+# powtarzanie
+
+
+a = 1
+
+if a > 1:
+    ...
+
+while a != 1:
+    ...
+
+
+
+2 - 1
+# 1
+
+2 + (-1)
+# 1
+
+2 * 3
+# 6
+
+2 + 2 + 2
+# 6
+
+# +
+
+
+data = 1
+data = 1.5
+data = True
+data = False
+data = None
+data = 'hello'
+data = [1, 2.5, True, None, 'hello']
+data = (1, 2.5, True, None, 'hello')
+data = {1, 2.5, True, None, 'hello'}
+data = {
+    'firstname': 'Mark',
+    'lastname': 'Watney',
+    'birthday': '1969-07-21',
+}
+for key in data.keys():
+    ...
+for values in data.values():
+    ...
+for key, value in data.items():
+    ...
+def add(a,b):
+    return a + b
+add(1,2)
+3
+add(a=1, b=2)
+3
+if 'firstname' in data:
+    print('jest')
+else:
+    print('brak')
+
+jest
+class User:
+    firstname: str
+    lastname: str
+
+    def __init__(self, firstname, lastname):
+        self.firstname = firstname
+        self.lastname = lastname
+
+    def say_hello(self):
+        return 'hello'
+
+mark = User('Mark', 'Watney')
+melissa = User('Melissa', 'Lewis')
+vars(mark)
+{'firstname': 'Mark', 'lastname': 'Watney'}
+vars(melissa)
+{'firstname': 'Melissa', 'lastname': 'Lewis'}
+mark.say_hello()
+'hello'
