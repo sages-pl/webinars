@@ -123,6 +123,7 @@ result.plot(
     grid=False,
 )
 
+plt.tight_layout()
 plt.show()
 
 #%%
