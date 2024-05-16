@@ -30,6 +30,7 @@ Materiały:
 https://python3.info/
 
 Kurs:
+https://python.kodolamacz.pl/
 https://platforma.sages.pl/product/python-w-analizie-danych/
 https://platforma.sages.pl/python-w-analizie-danych/
 
