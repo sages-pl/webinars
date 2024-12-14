@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-14 12:46+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
+"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+#: shop/apps.py:8
+msgid "Shop"
+msgstr "Sklep"
+
+#: shop/models/address.py:6
+msgid "Billing"
+msgstr "Rozliczeniowy"
+
+#: shop/models/address.py:7
+msgid "Shipping"
+msgstr "Dostawy"
+
+#: shop/models/address.py:11 shop/models/customer.py:20 shop/models/order.py:6
+msgid "Customer"
+msgstr "Klient"
+
+#: shop/models/address.py:12
+msgid "Type"
+msgstr "Typ"
+
+#: shop/models/address.py:13
+msgid "Street"
+msgstr "Ulica"
+
+#: shop/models/address.py:14
+msgid "City"
+msgstr "Miasto"
+
+#: shop/models/address.py:15
+msgid "Postcode"
+msgstr "Kod pocztowy"
+
+#: shop/models/address.py:16
+msgid "Region"
+msgstr "Region"
+
+#: shop/models/address.py:17
+msgid "Country"
+msgstr "Kraj"
+
+#: shop/models/address.py:20
+#, python-brace-format
+msgid "{self.type} address for {self.customer}"
+msgstr "Adres {self.type} dla {self.customer}"
+
+#: shop/models/address.py:25
+msgid "Address"
+msgstr "Adres"
+
+#: shop/models/address.py:26
+msgid "Addresses"
+msgstr "Adresy"
+
+#: shop/models/customer.py:6
+msgid "Firstname"
+msgstr "Imię"
+
+#: shop/models/customer.py:7
+msgid "Lastname"
+msgstr "Nazwisko"
+
+#: shop/models/customer.py:8
+msgid "Birthdate"
+msgstr "Data urodzenia"
+
+#: shop/models/customer.py:9
+msgid "Gender"
+msgstr "Płeć"
+
+#: shop/models/customer.py:10
+msgid "Tax Number"
+msgstr "Numer podatkowy"
+
+#: shop/models/customer.py:11
+msgid "Email"
+msgstr "Email"
+
+#: shop/models/customer.py:12
+msgid "Phone"
+msgstr "Telefon"
+
+#: shop/models/customer.py:15
+#, python-brace-format
+msgid "{self.firstname} {self.lastname}"
+msgstr "{self.firstname} {self.lastname}"
+
+#: shop/models/customer.py:21
+msgid "Customers"
+msgstr "Klienci"
+
+#: shop/models/order.py:7 shop/models/product.py:16 shop/models/product.py:17
+msgid "Product"
+msgstr "Produkt"
+
+#: shop/models/order.py:10
+#, python-brace-format
+msgid "Order from {self.customer}, products: {self.product}"
+msgstr "Zamówienie od {self.customer}, produkty: {self.product}"
+
+#: shop/models/order.py:15
+msgid "Order"
+msgstr "Zamówienie"
+
+#: shop/models/order.py:16
+msgid "Orders"
+msgstr "Zamówienia"
+
+#: shop/models/product.py:6
+msgid "EAN-13"
+msgstr "EAN-13"
+
+#: shop/models/product.py:7
+msgid "Name"
+msgstr "Nazwa"
+
+#: shop/models/product.py:8
+msgid "Price"
+msgstr "Cena"
+
+#: shop/models/product.py:11
+#, python-brace-format
+msgid "Product {self.name}"
+msgstr "Produkt {self.name}"
