@@ -90,7 +90,129 @@ DATA = """##
 # Each line must be a separate dict
 # Mind, that for 127.0.0.1 there will be two separate entries
 # type: list[dict]
-result = ...
+
+result = []
+for line in DATA.splitlines():
+    line = line.strip()
+
+    if not line or line.startswith('#'):
+        continue
+
+    records = line.split()
+    ip = records[0]
+    hosts = records[1:]
+    result.append({'ip': ip, 'hosts': hosts})
+
+
+result = []
+for line in DATA.splitlines():
+    line = line.strip()
+
+    if len(line) == 0:
+        continue
+    if line.isspace():
+        continue
+    if line.startswith('#'):
+        continue
+
+    ip, *hosts = line.split()
+    result.append({'ip': ip, 'hosts': hosts})
+
+
+
+result = []
+for line in DATA.splitlines():
+    if line and not (line[0] == '#' or line[1] == '#'):
+        ip, *hosts = line.split()
+        result.append({'ip': ip, 'hosts': hosts})
+
+
+
+
+def valid_line(line):
+    return line and not (line[0] == '#' or line[1] == '#')
+
+
+result = []
+for line in DATA.splitlines():
+    if valid_line(line):
+        ip, *hosts = line.split()
+        result.append({'ip': ip, 'hosts': hosts})
+
+
+
+
+def valid_line_empty_string():
+    assert not valid_line("")
+
+def valid_line_comment():
+    assert not valid_line("# This is a comment")
+
+def valid_line_whitespace():
+    assert not valid_line("   ")
+
+def valid_line_valid_ip():
+    assert valid_line("127.0.0.1 localhost")
+
+def valid_line_valid_ipv6():
+    assert valid_line("::1 localhost")
+
+def valid_line_invalid_ip():
+    assert not valid_line("999.999.999.999 invalidhost")
+
+def valid_line_mixed_content():
+    assert valid_line("10.13.37.1 nasa.gov esa.int")
+
+
+# złożoność obliczeniowa
+# - ile kroków ma algorytm
+# - tracimy na: for, while, nested loop
+
+# złożoność pamięciowa
+# - ile ramu potrzebuje nasz algorytm
+# - tracimy na: =, :=, .copy()
+
+# złożoność cyklomatyczna
+# - na ile gałęzi rozwidla się nasz kod
+# - tracimy na: if, elif, else, match, case
+
+# złożoność kognitywna
+# - jak trudno jest zrozumieć kod
+# - tracimy na: not, and, or, xor, &, |, ~, ^, <<, >>, <<=, >>=, &=, |=, ~=, ^=, @, @=, %, %=
+
+def status(age: int):
+    if age < 18:
+        return 'junior'
+    elif age < 30:
+        return 'young'
+    elif age < 65:
+        return 'adult'
+    else:
+        return 'senior'
+
+
+def test_a():
+    assert status(10) == 'junior'
+
+def test_b():
+    assert status(80) == 'senior'
+
+def test_c():
+    assert status(40) == 'adult'
+
+def test_d():
+    assert status(20) == 'young'
+
+
+status(18)
+status(30)
+status(65)
+
+status(-1)
+status(0)
+status(133)
+status(999)
+
 
 
 #%% Run
