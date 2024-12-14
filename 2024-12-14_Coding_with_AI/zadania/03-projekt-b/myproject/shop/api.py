@@ -7,8 +7,7 @@ from .schemas import NotFound, ProductSchema
 router = Router()
 
 @router.get('/products', response={
-    200: list[ProductSchema],
-})
+    200: list[ProductSchema]})
 @paginate
 def list_products(request):
     return Product.objects.all()
@@ -16,8 +15,7 @@ def list_products(request):
 
 @router.get('/products/{product_id}', response={
     200: ProductSchema,
-    404: NotFound,
-})
+    404: NotFound})
 def get_product(request, product_id: int):
     try:
         product = Product.objects.get(id=product_id)
