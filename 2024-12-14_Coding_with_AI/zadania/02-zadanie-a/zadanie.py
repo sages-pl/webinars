@@ -98,11 +98,17 @@ DATA = [
 ]
 
 
-# Convert `DATA` from `list[tuple]` to `list[dict]`
-# - key - name from the header
-# - value - numerical value or species name
-# type: list[dict[str,float|str]]
-result = ...
+HEADER = DATA[0]
+ROWS = DATA[1:]
+result = [dict(zip(HEADER, row)) for row in ROWS]
+
+
+header, *rows = DATA
+# header = DATA[0]
+# rows = DATA[1:]
+result = [dict(zip(header,row)) for row in rows]
+
+
 
 
 #%% Run

@@ -50,7 +50,7 @@
 
 # Define variable `result` with value 1
 # type: int
-result = ...
+result = 1
 
 
 #%% Run

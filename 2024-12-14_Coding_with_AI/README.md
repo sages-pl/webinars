@@ -38,7 +38,7 @@
 - Podstawowa znajomość Gita (commit, clone, pull, push),
 - Posiadanie konta na Github (proszę znać username),
 - Zainstalowany Python 3.12 lub 3.13 (preferowany 3.13),
-- Zainstalowany VS Code lub PyCharm 2024.2 (preferowany PyCharm),
+- Zainstalowany VS Code lub PyCharm 2024.3 (preferowany PyCharm),
 - Możliwość edytowania arkuszy Google (usługa nie może być zablokowana np. na komputerze firmowym),
 - Możliwość clone, pull, push z Github (usługa nie może być zablokowana np. na komputerze firmowym),
 - Możliwość korzystania z ChatGPT i alternatyw (usługi nie mogą być zablokowane np. na komputerze firmowym).
@@ -64,8 +64,8 @@
 - https://monsterapi.ai/playground
 
 
-
 ## AI About
+
 * Jakie są dostępne modele językowe,
 * Który model wybrać,
 * Jak tworzyć kod używając modeli językowych,
@@ -74,7 +74,6 @@
 * Jak tworzyć testy do napisanego kodu,
 * Jak refaktorować kod napisany przez AI,
 * Jak AI może refaktorować kos napisny przez Ciebie.
-
 
 ### Available language models
 
@@ -206,6 +205,7 @@ Considerations when choosing a model [#Bhasin2024]_:
 
 * PyCharm
 * VS Code
+* Neovim
 * Zed
 
 
