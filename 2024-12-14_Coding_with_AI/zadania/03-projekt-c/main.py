@@ -1,4 +1,6 @@
 from unittest import TestCase
+from random import randint
+from unittest.mock import patch
 
 
 class Dragon:
@@ -6,6 +8,7 @@ class Dragon:
         if name == '':
             raise TypeError('Name cannot be empty')
         self.name = name
+        self.health = randint(50, 100)
 
 
 class NameTest(TestCase):
@@ -25,3 +28,24 @@ class NameTest(TestCase):
         with self.assertRaises(TypeError):
             Dragon('')
 
+
+class HealthTest(TestCase):
+    def test_health_default_between(self):
+        dragon = Dragon('Name')
+        self.assertGreaterEqual(dragon.health, 50)
+        self.assertLessEqual(dragon.health, 100)
+
+    def test_health_default_bruteforce(self):
+        for i in range(10_000):
+            dragon = Dragon('Name')
+            self.assertGreaterEqual(dragon.health, 50)
+            self.assertLessEqual(dragon.health, 100)
+
+    def test_health_default_range(self):
+        dragon = Dragon('Name')
+        self.assertIn(dragon.health, range(50, 101))
+
+    @patch('main.randint', return_value=74)
+    def test_health_default_path(self, randint):
+        dragon = Dragon('Name')
+        self.assertEqual(dragon.health, 74)

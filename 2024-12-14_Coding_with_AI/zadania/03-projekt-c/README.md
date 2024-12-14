@@ -4,11 +4,12 @@
 ## Setup
 
 ```pycon
+>>> from random import seed; seed(0)
 >>> from main import Dragon
 
 ```
 
-## Tworzenie smoka
+## Nazwa smoka
 
 * Smok przy tworzeniu ma nazwę
 * Smok przy tworzeniu podnosi błąd jeżeli nie ma nazwy
@@ -23,12 +24,25 @@ Stwórz smoka o nazwie "Wawelski":
 Stworzenie smoka bez nazwy podnosi błąd:
 
 ```pycon
->>> dragon = Dragon()
+>>> Dragon()
 Traceback (most recent call last):
 TypeError: Dragon.__init__() missing 1 required positional argument: 'name'
 
->>> dragon = Dragon('')
+>>> Dragon('')
 Traceback (most recent call last):
 TypeError: Name cannot be empty
+
+```
+
+## Punkty życia
+
+* Smok przy tworzeniu ma losowe punkty życia z zakresu 50 do 100
+
+
+Smok przy tworzeniu ma losowe punkty życia:
+
+```pycon
+>>> dragon.health
+74
 
 ```
