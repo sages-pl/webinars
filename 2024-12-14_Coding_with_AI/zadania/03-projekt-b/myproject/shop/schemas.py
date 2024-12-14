@@ -6,3 +6,9 @@ class ProductSchema(Schema):
     ean13: str
     name: str
     price: float
+
+
+class NotFound(Schema):
+    code: int = 404
+    status: str = 'Not Found'
+    details: str
