@@ -152,42 +152,50 @@ def get_population(file):
 
 def get_data(gdp, population):
     """
-    >>> gdp = get_gdp(GDP)
-    >>> population = get_population(POPULATION)
-    >>> result = get_data(gdp, population)
+    Usage:
 
-    >>> result.head(5)  # doctest: +NORMALIZE_WHITESPACE
-                                   gdp  population  percapita
-    country
-    World          100834796000000  8119000000   12419.61
-    United States   25744100000000   335893238    76643.7
-    China           17963170000000  1409670000   12742.82
-    Germany          4076923000000    84708010   48129.13
-    Japan            4232173000000   123790000   34188.33
+        >>> gdp = get_gdp(GDP)
+        >>> population = get_population(POPULATION)
+        >>> result = get_data(gdp, population)
 
-    >>> result.loc['World']
-    gdp           100834796000000.0
-    population         8119000000.0
-    percapita              12419.61
-    Name: World, dtype: Float64
+    Result:
 
-    >>> result.loc['Poland']
-    gdp           688125000000.0
-    population        37532000.0
-    percapita           18334.35
-    Name: Poland, dtype: Float64
+        >>> result.head(5)  # doctest: +NORMALIZE_WHITESPACE
+                                       gdp  population  percapita
+        country
+        World          100834796000000  8119000000   12419.61
+        United States   25744100000000   335893238    76643.7
+        China           17963170000000  1409670000   12742.82
+        Germany          4076923000000    84708010   48129.13
+        Japan            4232173000000   123790000   34188.33
 
-    >>> result.info(memory_usage='deep')  # doctest: +NORMALIZE_WHITESPACE
-    <class 'pandas.core.frame.DataFrame'>
-    Index: 194 entries, World to Tuvalu
-    Data columns (total 3 columns):
-     #   Column      Non-Null Count  Dtype
-    ---  ------      --------------  -----
-     0   gdp         194 non-null    Int64
-     1   population  194 non-null    Int64
-     2   percapita   194 non-null    Float64
-    dtypes: Float64(1), Int64(2)
-    memory usage: 20.1 KB
+    Schema:
+
+        >>> result.info(memory_usage='deep')  # doctest: +NORMALIZE_WHITESPACE
+        <class 'pandas.core.frame.DataFrame'>
+        Index: 194 entries, World to Tuvalu
+        Data columns (total 3 columns):
+         #   Column      Non-Null Count  Dtype
+        ---  ------      --------------  -----
+         0   gdp         194 non-null    Int64
+         1   population  194 non-null    Int64
+         2   percapita   194 non-null    Float64
+        dtypes: Float64(1), Int64(2)
+        memory usage: 16.0 KB
+
+    Data:
+
+        >>> result.loc['World']
+        gdp           100834796000000.0
+        population         8119000000.0
+        percapita              12419.61
+        Name: World, dtype: Float64
+
+        >>> result.loc['Poland']
+        gdp           688125000000.0
+        population        37532000.0
+        percapita           18334.35
+        Name: Poland, dtype: Float64
     """
     return (
         pd
