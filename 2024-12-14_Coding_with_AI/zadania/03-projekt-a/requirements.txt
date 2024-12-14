@@ -1,0 +1,6 @@
+pandas
+numpy
+html5lib
+lxml
+beautifulsoup4
+matplotlib

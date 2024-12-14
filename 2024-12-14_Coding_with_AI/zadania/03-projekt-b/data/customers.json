@@ -1,0 +1,56 @@
+[
+  {
+    "firstname": "Mark",
+    "lastname": "Watney",
+    "birthdate": "1994-10-12",
+    "gender": "male",
+    "tax_number": "94101212345",
+    "email": "mwatney@nasa.gov",
+    "phone": "+1 (234) 555-0000"
+  },
+  {
+    "firstname": "Melissa",
+    "lastname": "Lewis",
+    "birthdate": "1995-07-15",
+    "gender": "female",
+    "tax_number": "95071512345",
+    "email": "mlewis@nasa.gov",
+    "phone": "+1 (234) 555-0001"
+  },
+  {
+    "firstname": "Rick",
+    "lastname": "Martinez",
+    "birthdate": "1996-01-21",
+    "gender": "male",
+    "tax_number": "96012112345",
+    "email": "rmartinez@nasa.gov",
+    "phone": "+1 (234) 555-0010"
+  },
+  {
+    "firstname": "Alex",
+    "lastname": "Vogel",
+    "birthdate": "1994-11-15",
+    "gender": "male",
+    "tax_number": "94111512345",
+    "email": "avogel@esa.int",
+    "phone": "+49 (234) 555-0011"
+  },
+  {
+    "firstname": "Beth",
+    "lastname": "Johanssen",
+    "birthdate": "2006-05-09",
+    "gender": "female",
+    "tax_number": "06250912345",
+    "email": "bjohanssen@nasa.gov",
+    "phone": "+1 (234) 555-0100"
+  },
+  {
+    "firstname": "Chris",
+    "lastname": "Beck",
+    "birthdate": "1999-08-02",
+    "gender": "male",
+    "tax_number": "99080212345",
+    "email": "cbeck@nasa.gov",
+    "phone": "+1 (234) 555-0101"
+  }
+]

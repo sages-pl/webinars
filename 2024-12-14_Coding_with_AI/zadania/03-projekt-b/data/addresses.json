@@ -1,0 +1,74 @@
+[
+  {
+    "customer": "mwatney@nasa.gov",
+    "type": "billing",
+    "street": "2101 E NASA Pkwy",
+    "city": "Houston",
+    "postcode": "77058",
+    "region": "Texas",
+    "country": "USA"
+  },
+  {
+    "customer": "mwatney@nasa.gov",
+    "type": "shipping",
+    "street": "",
+    "city": "Kennedy Space Center",
+    "postcode": "32899",
+    "region": "Florida",
+    "country": "USA"
+  },
+  {
+    "customer": "mlewis@nasa.gov",
+    "type": "shipping",
+    "street": "Kamienica Pod św. Janem Kapistranem",
+    "city": "Kraków",
+    "postcode": "31008",
+    "region": "Małopolskie",
+    "country": "Poland"
+  },
+  {
+    "customer": "rmartinez@nasa.gov",
+    "type": "billing",
+    "street": "",
+    "city": "Звёздный городо́к",
+    "postcode": "141160",
+    "region": "Московская область",
+    "country": "Россия"
+  },
+  {
+    "customer": "rmartinez@nasa.gov",
+    "type": "shipping",
+    "street": "",
+    "city": "Космодро́м Байкону́р",
+    "postcode": "",
+    "region": "Кызылординская область",
+    "country": "Қазақстан"
+  },
+  {
+    "customer": "avogel@esa.int",
+    "type": "shipping",
+    "street": "Linder Hoehe",
+    "city": "Cologne",
+    "postcode": "51147",
+    "region": "North Rhine-Westphalia",
+    "country": "Germany"
+  },
+  {
+    "customer": "bjohanssen@nasa.gov",
+    "type": "shipping",
+    "street": "2825 E Ave P",
+    "city": "Palmdale",
+    "postcode": "93550",
+    "region": "California",
+    "country": "USA"
+  },
+  {
+    "customer": "cbeck@nasa.gov",
+    "type": "shipping",
+    "street": "4800 Oak Grove Dr",
+    "city": "Pasadena",
+    "postcode": "91109",
+    "region": "California",
+    "country": "USA"
+  }
+]
