@@ -1,5 +1,5 @@
 from django.db import models
-from django.utils.translation import gettext_lazy as _
+from django.utils.translation import gettext as _
 
 
 class Order(models.Model):
@@ -7,7 +7,7 @@ class Order(models.Model):
     product = models.ManyToManyField(verbose_name=_('Product'), to='shop.Product', blank=False, default=None)
 
     def __str__(self):
-        return _(f'Order from {self.customer}, products: {self.product}')
+        return _(f'Order from {self.customer}')
 
     class Meta:
         app_label = 'shop'
