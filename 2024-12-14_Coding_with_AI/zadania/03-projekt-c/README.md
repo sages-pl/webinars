@@ -53,5 +53,11 @@ Smok przy tworzeniu ma losowe punkty życia:
 * Smok przy tworzeniu zajmuje domyślną pozycję x=0 y=0
 * Smok przy tworzeniu może mieć ustawioną dowolną pozycję
 
-!!! Uwaga:
-    Górny lewy róg ekranu to punkt x=0 y=0
+Uwaga: Górny lewy róg ekranu to punkt x=0 y=0
+
+Ustaw inicjalną pozycję smoka na x=50, y=100
+
+```pycon
+>>> dragon = Dragon('Wawelski', position_x=50, position_y=100)
+
+```
