@@ -1,6 +1,7 @@
 # Wykorzystanie AI w programowaniu w Python
 
 ## Trener
+
 - Matt Harasymczuk
 - [matt@sages.io](mailto:matt@sages.io)
 - [Sages](https://www.sages.pl/o-nas/zespol/matt-harasymczuk)	
