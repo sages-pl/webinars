@@ -46,3 +46,12 @@ Smok przy tworzeniu ma losowe punkty życia:
 74
 
 ```
+
+
+## Pozycja
+
+* Smok przy tworzeniu zajmuje domyślną pozycję x=0 y=0
+* Smok przy tworzeniu może mieć ustawioną dowolną pozycję
+
+!!! Uwaga:
+    Górny lewy róg ekranu to punkt x=0 y=0
