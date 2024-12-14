@@ -31,5 +31,5 @@
     {"customer": "cbeck@nasa.gov", "product": "Zulu"},
     {"customer": "mwatney@nasa.gov", "product": "Alfa"},
     {"customer": "avogel@esa.int", "product": "Romeo"},
-    {"customer": "bjohanssen@nasa.gov", "product": "Quebec"},
+    {"customer": "bjohanssen@nasa.gov", "product": "Quebec"}
 ]
