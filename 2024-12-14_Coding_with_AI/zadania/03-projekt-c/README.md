@@ -1,5 +1,20 @@
 # Dragon
+* https://python3.info/dragon/polish/about.html
 
-## Opis
+## Setup
 
-https://python3.info/dragon/polish/about.html
+```pycon
+>>> from main import Dragon
+
+```
+
+## Tworzenie smoka
+
+* Smok przy tworzeniu ma nazwę
+
+Stwórz smoka o nazwie "Wawelski":
+
+```pycon
+>>> dragon = Dragon('Wawelski')
+
+```
