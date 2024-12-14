@@ -1,6 +1,2 @@
 django
 django-ninja
-fastapi
-pydantic
-uvicorn
-tzdata
