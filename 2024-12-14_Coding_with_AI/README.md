@@ -238,6 +238,8 @@ Considerations when choosing a model [#Bhasin2024]_:
 
 ## Further Reading
 
+* https://www.jetbrains.com/lp/devecosystem-2024/
+* https://devclass.com/2024/12/13/huge-developer-survey-shows-which-ai-assistants-are-most-adopted-and-trend-towards-coding-with-vr-headsets/
 * https://artificialanalysis.ai/leaderboards/models
 * https://github.com/marketplace/models
 * `Monster API playground <https://monsterapi.ai/playground>`__
