@@ -10,6 +10,22 @@ PKB per capita jest używany jako miara do porównywania bogactwa narodowego
 między różnymi krajami. Wysoki PKB per capita oznacza, że kraj jest bogaty,
 podczas gdy niski PKB per capita oznacza, że kraj jest biedny.
 
+## Wymagania Funkcjonalne
+
+Polish:
+
+1. Pobierz dane z serwisu Wikipedia.
+2. Stwórz zestawienie PKB per capita dla różnych krajów.
+3. Stwórz wykres, który przedstawia PKB per capita dla top 10 krajów.
+4. Zapisz wykres do pliku PNG.
+
+English:
+
+1. Fetch data from Wikipedia.
+2. Create a list of GDP per capita for different countries.
+3. Create a chart that shows GDP per capita for the top 10 countries.
+4. Save the chart to a PNG file.
+
 ## Zadanie
 
 Stwórz zestawienie PKB per capita dla różnych krajów na podstawie danych
