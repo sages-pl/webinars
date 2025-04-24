@@ -1,0 +1,22 @@
+## Środiowisko pracy
+ipython
+jupyter
+jupyterlab
+
+## Analiza danych
+numpy
+pandas
+scipy
+
+## Wizualizacja
+matplotlib
+
+## Web scraping
+requests
+beautifulsoup4
+html5lib
+
+## Formaty danych
+xlrd
+openpyxl
+lxml
