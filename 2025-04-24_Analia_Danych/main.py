@@ -161,9 +161,11 @@ data = (
 
 #%%
 
+top = data.head(n=70)
+mean_value = top['percapita'].mean()
+
 top10 = (
-    data
-    .head(n=70)
+    top
     .loc[:, 'percapita']
     .plot(
         kind='bar',
@@ -173,6 +175,35 @@ top10 = (
         figsize=(15, 10),
         grid=False,
         legend=True,
+    )
+)
+
+plt.axhline(
+    y=mean_value,
+    color='red',
+    linestyle='--',
+    label=f'Mean: {mean_value:,.0f} USD')
+plt.legend()
+
+plt.tight_layout()
+plt.show()
+
+#%%
+
+bottom = (
+    data
+    .tail(n=30)
+    .loc[:, 'percapita']
+    .plot(
+        kind='bar',
+        title='PKB per capita - 30 najbiedniejszych krajów',
+        xlabel='Kraj',
+        ylabel='PKB per capita [USD]',
+        figsize=(15, 10),
+        grid=False,
+        legend=True,
+        color='red',
+        edgecolor='black'
     )
 )
 
