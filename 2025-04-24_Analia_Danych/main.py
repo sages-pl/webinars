@@ -161,11 +161,9 @@ data = (
 
 #%%
 
-top = data.head(n=70)
-mean_value = top['percapita'].mean()
-
-top10 = (
-    top
+top = (
+    data
+    .head(n=70)
     .loc[:, 'percapita']
     .plot(
         kind='bar',
@@ -178,19 +176,12 @@ top10 = (
     )
 )
 
-plt.axhline(
-    y=mean_value,
-    color='red',
-    linestyle='--',
-    label=f'Mean: {mean_value:,.0f} USD')
-plt.legend()
-
 plt.tight_layout()
 plt.show()
 
 #%%
 
-bottom = (
+bottom30 = (
     data
     .tail(n=30)
     .loc[:, 'percapita']
