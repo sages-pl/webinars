@@ -95,4 +95,4 @@ top10 = (
 )
 
 plt.tight_layout()
-plt.show()
+plt.savefig('top10.png')
