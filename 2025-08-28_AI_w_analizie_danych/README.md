@@ -30,7 +30,3 @@ top 10 krajów.
 3. Stwórz zestawienie PKB per capita dla różnych krajów.
 4. Stwórz wykres, który przedstawia PKB per capita dla top 10 krajów.
 5. Zapisz wykres do pliku PNG.
-
-## Przykład
-
-![GDP per Capita](example.png)
